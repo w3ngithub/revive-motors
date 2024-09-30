@@ -10,8 +10,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  // px-4 py-4
+
   return (
-    <nav className="container mx-auto px-4 py-4">
+    <nav className="container mx-auto  ">
       <div className="flex flex-wrap justify-between items-center">
         <h1 className="text-customColor-primary text-h1 tracking-tighter font-bold">
           {title}
@@ -65,4 +68,3 @@ const Header = () => {
 };
 
 export default Header;
-
