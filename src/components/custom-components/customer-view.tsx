@@ -96,8 +96,10 @@ const CustomerView = () => {
               {testimonials.map((_, index) => (
                 <span
                   key={index}
-                  className={`w-3 h-3 rounded-full transition-all duration-200 ${
-                    index === currentIndex ? "bg-gray-800" : "bg-gray-400"
+                  className={`w-5 h-1  transition-all duration-200 ${
+                    index === currentIndex
+                      ? "bg-customColor-primary"
+                      : "bg-gray-400"
                   }`}
                 />
               ))}
