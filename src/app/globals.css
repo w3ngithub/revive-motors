@@ -5,16 +5,10 @@
 /* * {
   border: none !important;
 } */
-/* h1 {
-  font-size: clamp(2rem, 1rem + 10vw, 4rem);
-} */
+
 /* * {
   box-sizing: border-box;
   border: 2px solid green;
-} */
-
-/* body {
-  font-family: Arial, Helvetica, sans-serif;
 } */
 
 /* h1,
@@ -29,6 +23,28 @@ a {
   .container {
     width: 80%;
   }
+}
+
+ /* 2 step down */
+@media (max-width: 1436px) {
+
+   h1 {
+    font-size: 48px !important;
+  }
+  /* h2 {
+    font-size: 40px !important;
+  }
+  h3 {
+    font-size: 40px !important;
+  }  */
+}
+
+ /* 3 step down */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 32px !important;  
+  }
+ 
 }
 
 /* section {

@@ -11,9 +11,9 @@ const Hero = () => {
     <section className="border border-red-500 ">
       <div className="container grid sm:grid-cols-2 ">
         <div className="flex flex-col justify-center items-start border border-red-500 gap-11">
-          <p className="text-h1 font-extrabold max-w-[624px] leading-tight">
+          <h1 className="text-h1 font-extrabold max-w-[624px] leading-tight">
             {heading}
-          </p>
+          </h1>
           <Button className="bg-customColor-primary text-b1 text-customColor-white max-w-[203px] max-h-[64px] p-7 px-9 rounded-xl">
             {button.text}
           </Button>
