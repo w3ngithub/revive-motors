@@ -1,0 +1,35 @@
+{
+    "title": "Revive Motors",
+    "navItems": [
+      {
+        "name": "Home",
+        "href": "/home"
+      },
+      {
+        "name": "About us",
+        "href": "/about"
+      },
+      {
+        "name": "Services",
+        "href": "/services"
+      },
+      {
+        "name": "Blog",
+        "href": "/blog"
+      },
+      {
+        "name": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "divider": "|",
+    "contactInfo": {
+      "iconSrc": "/project/phone.svg",
+      "altText": "Phone Icon",
+      "phoneDetails": {
+        "caption": "Road Assistance",
+        "phoneNumber": "1800 265 24 52"
+      }
+    }
+  }
+  
