@@ -1,6 +1,7 @@
 import Appointment from "@/components/custom-components/appointment";
 import Banner from "@/components/custom-components/Banner";
 import Brands from "@/components/custom-components/brands";
+import CustomerSatisfaction from "@/components/custom-components/customer-satisfaction";
 import CustomerView from "@/components/custom-components/customer-view";
 import Footer from "@/components/custom-components/footer";
 import FrequentQuestion from "@/components/custom-components/frequent-question";
@@ -17,10 +18,11 @@ export default function Home() {
       <Appointment />
       <Maintenance />
       {/* <GetInTouch /> */}
-      <Brands />
-      {/* <CustomerView /> */}
-      <FrequentQuestion />
       <Banner />
+      <CustomerSatisfaction />
+      <Brands />
+      <CustomerView />
+      <FrequentQuestion />
       <Footer />
     </>
   );

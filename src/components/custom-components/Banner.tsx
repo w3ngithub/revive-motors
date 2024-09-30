@@ -4,8 +4,9 @@ import { Button } from "../ui/button";
 import Middle from "./middle";
 
 const Banner = () => {
+  // min-h-[100vh]
   return (
-    <section className="min-h-[100vh] max-w-[100vw] border border-red-500">
+    <section className=" max-w-[100vw] border border-red-500">
       <div className="grid grid-cols-12 border-2 border-slate-950 w-full max-h-[502px]">
         {/* Left Image */}
         <div className="col-span-2 border-4 border-green-500 relative">
