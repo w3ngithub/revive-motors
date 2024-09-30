@@ -5,7 +5,7 @@ import customerSatisfactionData from "../../json/customer-satisfaction.json";
 const CustomerSatisfaction = () => {
   return (
     <section className="bg-customColor-lightGrey ">
-      <div className="container flex flex-row justify-between items-center py-8 flex-wrap ">
+      <div className="container flex flex-row justify-between items-center py-8 flex-wrap max-lg:gap-x-4 max-lg:gap-y-6 max-sm:gap-y-9 ">
         {customerSatisfactionData.map((item, index) => {
           return (
             <div className="">
