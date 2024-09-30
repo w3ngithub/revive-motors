@@ -13,7 +13,7 @@ const Brands = () => {
           <h3 className="text-h3 font-bold mt-10 ">{heading}</h3>
         </div>
 
-        <div className="grid   sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-start  gap-11  w-[100%] h-full    mb-10  max-sm:justify-center  ">
+        <div className="grid   sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-start gap-11 w-[100%] h-full  mb-10  max-sm:justify-center  ">
           {logos.map((item) => {
             return (
               <div className="flex flex-row justify-center items-center gap-2 max-w-[225px] max-h-[126px] p-2 m-10 max-sm:m-2">
