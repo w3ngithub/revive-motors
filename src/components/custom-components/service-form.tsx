@@ -9,16 +9,16 @@ const ServiceForm = () => {
   const { heading, services, knowMore, form } = serviceFormData;
   // min-w-[100vw]
   return (
-    <section className=" flex flex-row items-center justify-center overflow-hidden  min-h-[100vh] w-full border-2 border-red-700 bg-customColor-steelGrey my-10">
-      <div className="container flex flex-row items-start justify-center border-2 border-red-700 pt-3 gap-6 max-lg:flex-col my-10">
-        <div className="flex flex-col items-start gap-[53px] border-2 border-red-700">
+    <section className=" flex flex-row items-center justify-center overflow-hidden  min-h-[100vh] w-full     bg-customColor-steelGrey my-10">
+      <div className="container flex flex-row items-start justify-center     pt-3 gap-6 max-lg:flex-col my-10">
+        <div className="flex flex-col items-start gap-[53px]    ">
           <h2 className="text-h2 font-extrabold max-w-[624px] leading-tight">
             {heading}
           </h2>
           {services.map((service, index) => {
             return (
               <div className="flex flex-row justify-center align-center gap-4 hover:cursor-pointer">
-                <div className="border border-red-500">
+                <div className="">
                   <Image
                     src={service.iconSrc}
                     width={47}
@@ -37,7 +37,7 @@ const ServiceForm = () => {
             );
           })}
 
-          <div className="flex flex-row items-center gap-6 border border-red-500 ml-11 pl-2 hover:cursor-pointer">
+          <div className="flex flex-row items-center gap-6 ml-11 pl-2 hover:cursor-pointer">
             <p className="text-b1 font-semibold">{knowMore.text} </p>
             <span>
               <Image
@@ -51,8 +51,8 @@ const ServiceForm = () => {
           </div>
         </div>
         <div className="">
-          <div className="border border-red-500 flex flex-col gap-6">
-            <h3 className="text-h3 font-bold leading-tight">
+          <div className="flex flex-col gap-6">
+            <h3 className="text-h3 font-bold leading-tight max-lg:mt-7 max-sm:font-extrabold">
               Get a quote for the car service
             </h3>
             <form className="flex flex-col flex-wrap gap-1">

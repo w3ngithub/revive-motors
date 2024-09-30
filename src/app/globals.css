@@ -25,26 +25,30 @@ a {
   }
 }
 
- /* 2 step down */
+/* 2 step down */
 @media (max-width: 1436px) {
-
-   h1 {
+  h1 {
     font-size: 48px !important;
   }
-  /* h2 {
+  h2 {
     font-size: 40px !important;
   }
   h3 {
     font-size: 40px !important;
-  }  */
+  }
 }
 
- /* 3 step down */
+/* 3 step down */
 @media (max-width: 640px) {
   h1 {
-    font-size: 32px !important;  
+    font-size: 32px !important;
   }
- 
+  h2 {
+    font-size: 32px !important;
+  }
+  h3 {
+    font-size: 32px !important;
+  }
 }
 
 /* section {
