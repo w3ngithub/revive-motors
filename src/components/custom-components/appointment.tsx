@@ -6,39 +6,38 @@ import appointmentData from "../../json/appointment.json";
 const Appointment = () => {
   const { leftContent, rightContent } = appointmentData;
   // min-w-[100vw]
+  ////////////////////
+  // max-lg:flex-col max-md:bg-green-700
   return (
-    <section className="flex flex-row items-center justify-center min-h-[100vh] w-full overflow-hidden  border-2 border-red-700 bg-customColor-white">
-      <div className="container grid sm:grid-cols-2 ">
-        <div className="flex flex-col justify-center items-start border border-red-500 gap-11">
-          <p className="text-h2 font-extrabold max-w-[624px] leading-tight">
-          {leftContent.heading}
-          </p>
-          <p className="text-b2 text-customColor-grey max-w-[425px] border-2 border-red-700">
-          {leftContent.description}
+    <section className="flex flex-row items-center justify-center min-h-[100vh] w-full overflow-hidden   bg-customColor-white ">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 ">
+        <div className="flex flex-col justify-center items-start  gap-11 ">
+          <h2 className="text-h2 font-extrabold max-w-[624px] leading-tight">
+            {leftContent.heading}
+          </h2>
+          <p className="text-b2 text-customColor-grey max-w-[425px] ">
+            {leftContent.description}
           </p>
           <Button className="bg-customColor-primary text-b1 text-customColor-white max-w-[177px] max-h-[64px] p-7 px-9 rounded-xl">
-          {leftContent.button}
+            {leftContent.button}
           </Button>
         </div>
-        <div className="flex flex-col justify-center items-start border-2 border-slate-900">
+        <div className="flex flex-col justify-center items-start mt-9">
           <div className="space-y-6 relative">
             {rightContent.steps.map((step, index) => (
-              <div
-                key={index}
-                className="flex items-start space-x-4 relative border border-red-950"
-              >
+              <div key={index} className="flex items-start space-x-4 relative ">
                 <div
                   className="flex-shrink-0 w-[72px] h-[72px] rounded-full
                  bg-customColor-secondary flex items-center justify-center z-10"
                 >
-                  <span className="text-white text-h5 font-bold">
+                  <span className="text-white text-h5 font-bold max-xl:text-t2">
                     {step.number}
                   </span>
                 </div>
                 <div className="space-y-1 flex-grow ">
-                  <h3 className="text-t1  font-extrabold leading-tight mb-3 pt-3">
+                  <p className="text-t1  font-extrabold leading-tight mb-3 pt-3 max-xl:text-t2">
                     {step.title}
-                  </h3>
+                  </p>
                   <p className="text-b1 text-customColor-grey max-w-[300px]">
                     {step.description}
                   </p>
