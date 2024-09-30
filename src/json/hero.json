@@ -1,0 +1,17 @@
+{
+    "heading": "Get your vehicle service done online at one place",
+    "button": {
+      "text": "Book a service"
+    },
+    "openHours": {
+      "iconSrc": "/project/clock-icon.svg",
+      "altText": "Clock Icon",
+      "caption": "We are open",
+      "schedule": "Monday to Friday 9:00 AM to 10:00 AM"
+    },
+    "heroImage": {
+      "src": "/project/final.png",
+      "altText": "Hero icon"
+    }
+  }
+  
