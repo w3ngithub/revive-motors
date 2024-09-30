@@ -14,7 +14,7 @@ const Maintenance = () => {
           <h2 className="text-h2 font-extrabold max-w-[858px] leading-tight text-center">
             {largeHeading}
           </h2>
-          <div className="flex flex-row justify-center items-center flex-wrap gap-2 w-[80%] border border-red-700 max-2xl:w-[100%]">
+          <div className="flex flex-row justify-center items-center flex-wrap gap-2 w-[80%] max-2xl:w-[100%]">
             {cards.map((card, index) => (
               <Card
                 key={index}
