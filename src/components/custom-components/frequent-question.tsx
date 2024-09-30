@@ -21,14 +21,14 @@ const FrequentQuestion = () => {
               <Accordion
                 type="single"
                 collapsible
-                className="w-[70%]   bg-customColor-white p-4"
+                className="w-[70%]   bg-customColor-white p-4 max-sm:w-[100%]"
               >
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="text-t2 font-semibold ">
-                  {item.question}
+                    {item.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-b1 text-customColor-grey  max-w-[701px] ">
-                  {item.answer}
+                    {item.answer}
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
