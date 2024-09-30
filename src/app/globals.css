@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   border: none !important;
-}
+} */
 /* h1 {
   font-size: clamp(2rem, 1rem + 10vw, 4rem);
 } */
@@ -17,13 +17,18 @@
   font-family: Arial, Helvetica, sans-serif;
 } */
 
-h1,
+/* h1,
 div,
 p,
 ul,
 li,
 a {
   border: none !important;
+} */
+@media (max-width: 1436px) {
+  .container {
+    width: 80%;
+  }
 }
 
 /* section {

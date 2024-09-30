@@ -20,10 +20,11 @@ const config: Config = {
     container: {
       center: true,
       screens: {
-        // sm: "640px",
-        // md: "768px",
-        // lg: "1024px",
-        xl: "1300px", // This matches your original configuration
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1300px",
+        custom: "80%", // Custom width for screens below 1437px
       },
     },
     extend: {

@@ -21,7 +21,7 @@ export default function Home() {
       <Banner />
       <CustomerSatisfaction />
       <Brands />
-      <CustomerView />
+      {/* <CustomerView /> */}
       <FrequentQuestion />
       <Footer />
     </>
