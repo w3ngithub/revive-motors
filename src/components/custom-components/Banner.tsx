@@ -19,7 +19,7 @@ const Banner = () => {
         </div>
 
         {/* Middle Component */}
-        <div className="flex justify-center items-center col-span-5 border-4 border-blue-500">
+        <div className="block m-0 p-0  justify-center items-center col-span-5 border-4 border-blue-500">
           <Middle />
         </div>
 
