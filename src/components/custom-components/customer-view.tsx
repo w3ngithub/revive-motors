@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -14,20 +14,38 @@ import customerViewData from "../../json/customer-view.json";
 
 const CustomerView = () => {
   const { heading, testimonials } = customerViewData;
-  // border border-red-500
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Move the carousel by two items at a time
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === testimonials.length - 2 ? 0 : prevIndex + 1
+    );
+  };
+
+  const handlePrevious = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? testimonials.length - 2 : prevIndex - 1
+    );
+  };
+
   return (
-    <section className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8 min-h-[100vh] max-w-[100vw] ">
+    <section className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8 min-h-[100vh] max-w-[100vw]">
       <div className="container mx-auto max-w-7xl">
         <h3 className="text-h3 font-bold text-center mb-12 max-w-[909px] mx-auto">
           {heading}
         </h3>
-        <div className="flex flex-col justify-between w-full h-full  border border-red-500">
+        <div className="relative overflow-hidden w-full">
           {/* Carousel content */}
-          <Carousel className="w-full flex-grow">
-            <CarouselContent>
+          <Carousel className="w-full">
+            <CarouselContent
+              className="flex transition-transform duration-500"
+              style={{ transform: `translateX(-${currentIndex * 50}%)` }}
+            >
               {testimonials.map((testimonial, index) => (
-                <CarouselItem key={index} className="md:basis-1/2">
-                  <Card className="max-w-[616px] min-h-[376px] border-none shadow-none bg-white p-10 rounded-sm">
+                <CarouselItem key={index} className="flex-none w-1/2">
+                  {/* Each item takes up 50% of the carousel width */}
+                  <Card className="max-w-[616px] min-h-[376px] border-none shadow-none bg-white p-10 rounded-sm mx-auto">
                     <CardContent className="flex flex-col justify-center items-start p-0 gap-6">
                       <div className="flex items-center gap-4">
                         <Avatar className="w-16 h-16">
@@ -56,13 +74,36 @@ const CustomerView = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <div className="flex justify-end space-x-4 mt-4">
-              <CarouselPrevious />
-              <CarouselNext />
+
+            {/* Carousel navigation */}
+            <div className="flex justify-between mt-4">
+              <button
+                onClick={handlePrevious}
+                className="bg-gray-700 text-white px-4 py-2 rounded"
+              >
+                Previous
+              </button>
+              <button
+                onClick={handleNext}
+                className="bg-gray-700 text-white px-4 py-2 rounded"
+              >
+                Next
+              </button>
+            </div>
+
+            {/* Pagination Dots */}
+            <div className="flex justify-center space-x-2 mt-8">
+              {testimonials.map((_, index) => (
+                <span
+                  key={index}
+                  className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                    index === currentIndex ? "bg-gray-800" : "bg-gray-400"
+                  }`}
+                />
+              ))}
             </div>
           </Carousel>
         </div>
-        <div></div>
       </div>
     </section>
   );
