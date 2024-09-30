@@ -23,7 +23,7 @@ export default function Home() {
       <Brands />
       {/* <CustomerView /> */}
       <FrequentQuestion />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
