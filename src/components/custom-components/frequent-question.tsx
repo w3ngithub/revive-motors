@@ -10,8 +10,8 @@ import frequentQuestionData from "../../json/frequent-question.json";
 const FrequentQuestion = () => {
   const { heading, questions } = frequentQuestionData;
   return (
-    <section className=" flex flex-col justify-center bg-customColor-steelGrey  min-h-[100vh] max-w-[100vw] border border-red-500">
-      <div className="container flex flex-col justify-center gap-11 border border-red-500 my-10 ">
+    <section className=" flex flex-col justify-center bg-customColor-steelGrey  min-h-[100vh] max-w-[100vw]">
+      <div className="container flex flex-col justify-center gap-11  my-10 ">
         <div>
           <h3 className="text-h3 font-bold  text-center">{heading}</h3>
         </div>
