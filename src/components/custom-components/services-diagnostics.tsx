@@ -7,18 +7,18 @@ import Image from "next/image";
 const ServicesDiagnostics = () => {
   // service-diagnostics
   return (
-    <section className="container mb-11">
+    <section className="container mb-11 ">
       <div>
         <h1 className="text-h1 text-customColor-black font-bold my-11 ">
           Auto Diagnostics
         </h1>
 
-        <div className="grid sm:grid-cols-12 border border-red-500 gap-11">
-          <div className="sm:col-span-3 border border-red-500">
+        <div className="grid lg:grid-cols-12 border border-red-500 gap-11">
+          <div className="lg:col-span-3 border border-red-500">
             <AboutSidebar />
             <AboutSidebarSecond />
           </div>
-          <div className="sm:col-span-9 border border-red-500 space-y-10">
+          <div className="lg:col-span-9 border border-red-500 space-y-10">
             <div className="relative border border-green-800 w-[full] h-[334px]">
               <Image
                 src="/project/service-diagnostics.png"
@@ -78,7 +78,7 @@ const ServicesDiagnostics = () => {
             </div>
 
             {/* //// */}
-            <div className="flex flex-row gap-6 justify-center h-[112px] border border-red-600">
+            <div className="flex flex-row gap-6 justify-center min-h-[112px] border border-red-600">
               <p className="text-b1 font-bold text-customColor-grey leading-relaxed border-l-4 border-customColor-black pl-4 ">
                 Ut non urna a odio condimentum dictum. Proin egestas erat a orci
                 ultrices, vitae bibendum libero posuere. Quisque laoreet
