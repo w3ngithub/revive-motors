@@ -21,8 +21,8 @@ const AboutSidebarSecond = () => {
                 />
               </div>
               <div className="max-w-[360px]">
-                <p className="text-t2 font-semibold">{service.title}</p>
-                <p className="text-b2 text-customColor-grey max-w-[266px]">
+                <p className="text-t2 font-semibold ">{service.title}</p>
+                <p className="text-b2 font-semibold text-customColor-grey max-w-[266px] my-2">
                   {service.description}
                 </p>
               </div>
