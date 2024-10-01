@@ -10,7 +10,7 @@ const AboutQuoteFirst = () => {
         <h3 className="text-h3 font-bold text-customColor-black  max-w-[614px] border border-red-500">
           We Provide Expert Service and aim to have a long term with you
         </h3>
-        <p className="text-t2 font-semibold text-customColor-grey max-w-[614px] border border-red-500 ">
+        <p className="text-t2 font-semibold text-customColor-grey max-w-[614px] border border-red-500 my-5 ">
           We provide a full range of front end mechanical repairs for all makes
           and models of cars, no matter
         </p>
