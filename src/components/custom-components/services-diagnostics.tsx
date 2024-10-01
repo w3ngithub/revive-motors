@@ -13,12 +13,12 @@ const ServicesDiagnostics = () => {
           Auto Diagnostics
         </h1>
 
-        <div className="grid lg:grid-cols-12 border border-red-500 gap-11">
-          <div className="lg:col-span-3 border border-red-500">
+        <div className="grid lg:grid-cols-12  gap-11">
+          <div className="lg:col-span-3 ">
             <AboutSidebar />
             <AboutSidebarSecond />
           </div>
-          <div className="lg:col-span-9 border border-red-500 space-y-10">
+          <div className="lg:col-span-9  space-y-10">
             <div className="relative border border-green-800 w-[full] h-[334px]">
               <Image
                 src="/project/service-diagnostics.png"
@@ -78,7 +78,7 @@ const ServicesDiagnostics = () => {
             </div>
 
             {/* //// */}
-            <div className="flex flex-row gap-6 justify-center min-h-[112px] border border-red-600">
+            <div className="flex flex-row gap-6 justify-center min-h-[112px] ">
               <p className="text-b1 font-bold text-customColor-grey leading-relaxed border-l-4 border-customColor-black pl-4 ">
                 Ut non urna a odio condimentum dictum. Proin egestas erat a orci
                 ultrices, vitae bibendum libero posuere. Quisque laoreet
