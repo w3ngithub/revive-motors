@@ -11,6 +11,8 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import customerViewData from "../../json/customer-view.json";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 
 const CustomerView = () => {
   const { heading, testimonials } = customerViewData;
@@ -76,19 +78,51 @@ const CustomerView = () => {
             </CarouselContent>
 
             {/* Carousel navigation */}
-            <div className="flex justify-between mt-4">
-              <button
+            <div className="flex justify-end gap-3 mt-4 border border-red-700">
+              {/* <button
                 onClick={handlePrevious}
                 className="bg-gray-700 text-white px-4 py-2 rounded"
               >
                 Previous
-              </button>
-              <button
+              </button> */}
+              {/* <button
                 onClick={handleNext}
                 className="bg-gray-700 text-white px-4 py-2 rounded"
               >
                 Next
-              </button>
+              </button> */}
+              <span
+                onClick={handlePrevious}
+                className="flex items-center justify-center px-4 py-2 rounded bg-gray-100 text-black hover:bg-black hover:text-white transition-colors duration-200"
+              >
+                <BsFillArrowLeftCircleFill className="h-6 w-6" />
+              </span>
+              <span
+                onClick={handleNext}
+                className="flex items-center justify-center px-4 py-2 rounded bg-gray-100 text-black hover:bg-black hover:text-white transition-colors duration-200"
+              >
+                <BsFillArrowRightCircleFill className="h-6 w-6" />
+              </span>
+
+              {/* <span
+                onClick={handleNext}
+                className="flex items-center justify-center px-4 py-2 rounded bg-gray-100  hover:transition-colors duration-200"
+              >
+                <BsFillArrowRightCircleFill className="h-6 w-6" />
+              </span> */}
+
+              {/* \\\\\\\\\\\\\\\\\\\\\\ */}
+              {/* <span
+                onClick={handleNext}
+                className="flex items-center justify-center px-4 py-2 rounded hover:transition-colors duration-200 text-customColor-secondary"
+              >
+                <BsFillArrowRightCircleFill
+                  fill="white"
+                  color="black"
+                  className="h-6 w-6 text-black"
+                />
+              </span> */}
+              {/* //////////////////////////// */}
             </div>
 
             {/* Pagination Dots */}
