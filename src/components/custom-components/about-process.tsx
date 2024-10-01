@@ -5,8 +5,8 @@ import { CheckCircle2 } from "lucide-react";
 
 const AboutProcess = () => {
   return (
-    <section className="container mx-auto px-4 py-16 border border-red-500">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 border border-red-500">
+    <section className="container mx-auto px-4 py-16  ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16  ">
         <div>
           <h3 className="text-h3 font-bold mb-6">
             How we work and the process we follow
@@ -24,7 +24,7 @@ const AboutProcess = () => {
             ))}
           </ul>
         </div>
-        <div className="grid grid-cols-2 gap-4 border border-red-500">
+        <div className="grid grid-cols-2 gap-4  ">
           <Image
             src="/project/about-process-car.png"
             alt="Car service 1"
@@ -42,8 +42,8 @@ const AboutProcess = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border border-red-500">
-        <div className="grid grid-cols-2 gap-4 border border-red-500">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center  ">
+        <div className="grid grid-cols-2 gap-4  ">
           <Image
             src="/project/about-process-wheel.png"
             alt="Car part 1"
@@ -59,7 +59,7 @@ const AboutProcess = () => {
             className="object-cover w-full h-full"
           />
         </div>
-        <div className="border border-red-500">
+        <div className=" ">
           <h2 className="text-h3 font-bold mb-4">
             Diagnose Car Problems If You Don't Know Much About Cars
           </h2>
