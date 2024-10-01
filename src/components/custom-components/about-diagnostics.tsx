@@ -3,16 +3,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 
 const AboutDiagnostics = () => {
-  // border border-red-500
+  //
   return (
-    <section className="bg-customColor-lightGrey  min-h-[100vh] max-w-[100vw]">
-      <div className=" container bg-customColor-lightGrey">
-        <div className="container  bg-customColor-lightGrey ">
-          <div className="grid sm:grid-cols-2 border border-red-500 h-[760px]">
-            <div className="border border-red-500 w-full h-full">
+    <section className="bg-customColor-lightGrey  min-h-[100vh] max-w-[100vw] border border-red-500  flex justify-center items-center">
+      <div className="   bg-customColor-lightGrey   max-2xl:my-10 border border-red-500">
+        <div className="container  bg-customColor-lightGrey   ">
+          <div className="grid sm:grid-cols-2 h-[760px]">
+            <div className=" w-full h-full">
               {/* /////////////////////// */}
-
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              {/* 1st part */}
+              {/* max-w-sm */}
+              <div className="max-w-[624px] min-h-[710px] bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700 flex flex-col justify-center items-center">
                 <a href="#">
                   <img
                     className="rounded-t-lg"
@@ -22,19 +23,21 @@ const AboutDiagnostics = () => {
                 </a>
                 <div className="p-5">
                   <a href="#">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Noteworthy technology acquisitions 2021
+                    <h5 className="mb-2 text-h3 font-bold tracking-tight text-gray-900 dark:text-white">
+                      Auto Diagnostics
                     </h5>
                   </a>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                  <p className="max-w-[500px] mb-3 text-t2 font-normal text-customColor-grey ">
+                    Through True Rich Attended does no end it his mother since
+                    favourable real had half every him case in packages enquire
+                    we up ecstatic. Through True Rich Attended does no end it
+                    his mother.
                   </p>
                   <a
                     href="#"
-                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="text-b1 font-semibold inline-flex items-center px-3 py-2 text-sm  text-center rounded-lg focus:ring-4 focus:outline-none"
                   >
-                    Read more
+                    See service details
                     <svg
                       className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
                       aria-hidden="true"
@@ -56,8 +59,9 @@ const AboutDiagnostics = () => {
 
               {/* ///////////////////// */}
             </div>
-            <div className="border border-red-500">
+            <div className="">
               {/* ////////////////////////// */}
+              {/* 2nd part */}
 
               <div className="flex flex-row justify-start items-center flex-wrap gap-2 w-[100%] max-2xl:w-[100%]">
                 <Card className="group flex flex-col justify-center items-center w-[316px] h-[232px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
