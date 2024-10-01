@@ -18,7 +18,7 @@ const ServicesDiagnostics = () => {
             <AboutSidebar />
             <AboutSidebarSecond />
           </div>
-          <div className="sm:col-span-9 border border-red-500">
+          <div className="sm:col-span-9 border border-red-500 gap-6">
             <div className="relative border border-green-800 w-[full] h-[334px]">
               <Image
                 src="/project/service-diagnostics.png"
