@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 const ServiceHero = () => {
   return (
     // aboutHero
-    <section className="container min-h-[100vh] my-10 border border-red-500">
+    <section className="container  2xl:min-h-[550px] my-5 border border-red-500">
       <div className="grid grid-cols-1  sm:grid-cols-12 2xl:min-h-[550px]">
         <div className=" relative sm:col-span-5 h-[300px] sm:h-auto">
           {" "}
