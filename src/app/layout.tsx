@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/custom-components/header/header";
+import Footer from "@/components/custom-components/footer";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -34,10 +35,11 @@ export default function RootLayout({
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className={`${manrope.className}`}
+        className={`${manrope.className}  min-h-screen flex flex-col`}
       >
         <Header />
-        {children}
+        <main className="flex-1">{children}</main>
+        <Footer />
 
         {/* <p className="font-manrope">Hello hi</p> */}
       </body>
