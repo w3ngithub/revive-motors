@@ -6,7 +6,7 @@ const AboutService = () => {
   return (
     <section className="container min-h-[100vh] my-10">
       <div className="grid grid-cols-1  sm:grid-cols-12 2xl:min-h-[550px]">
-        <div className=" relative col-span-5 ">
+        <div className=" relative sm:col-span-5 h-[300px] sm:h-auto">
           {" "}
           <Image
             src="/project/aboutCar.png"
