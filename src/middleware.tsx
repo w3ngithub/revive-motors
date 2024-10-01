@@ -7,5 +7,5 @@ export function middleware(request: NextResponse) {
 }
 
 export const config = {
-  matcher: ["/home"], //yo yo path xa vane redirect garxa to "/login" page ma
+  matcher: ["/home"], //yo yo path xa vane redirect garxa to "/" page ma
 };
