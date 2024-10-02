@@ -4,26 +4,26 @@ const BlogCard = () => {
   return (
     <section className="bg-[#f5f5f5]  min-h-[100vh] max-w-[100vw] flex flex-row justify-center items-center pb-10 ">
       <div className="container ">
-        <div className="grid lg:grid-cols-12 border border-red-500 max-h-[746px]">
-          <div className="col-span-5 border border-green-500  ">
+        <div className="grid lg:grid-cols-12     max-h-[746px]">
+          <div className="col-span-5   ">
             {/* /////////////////////// */}
             <div className="max-w-[537px] min-h-[746px] bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700 flex flex-col justify-start items-center">
               <a href="#">
                 {/*  */}
                 <img
-                  className="rounded-none border border-red-500 mt-4 max-2xl:p-4"
+                  className="rounded-none     mt-4 max-2xl:p-4"
                   src="/project/blog-car-card.png"
                   alt="Auto Diagnostics"
                   width={473}
                   height={330}
                 />
               </a>
-              <div className="p-5 border border-green-500 flex flex-col gap-4 2xl:pl-4">
+              <div className="p-5  flex flex-col gap-4 2xl:pl-4">
                 <span className="text-b2 text-customColor-grey font-semibold 2xl:pl-4">
                   Posted on October 6th 2021
                 </span>
                 <a href="#">
-                  <h4 className="mb-2 text-h4 font-bold tracking-tight text-gray-900 dark:text-white border border-red-500 2xl:pl-4">
+                  <h4 className="mb-2 text-h4 font-bold tracking-tight text-gray-900 dark:text-white     2xl:pl-4">
                     Should I Buy a New Car or Lease a New Car in 2021?
                   </h4>
                 </a>
@@ -58,7 +58,7 @@ const BlogCard = () => {
 
             {/* ///////////////////// */}
           </div>
-          <div className="col-span-7 border border-red-500">2</div>
+          <div className="col-span-7    ">2</div>
         </div>
       </div>
     </section>
