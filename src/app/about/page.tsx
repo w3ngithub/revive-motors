@@ -4,6 +4,7 @@ import AboutProcess from "@/components/custom-components/about-process";
 import AboutQuote from "@/components/custom-components/about-quote";
 import AboutQuoteFirst from "@/components/custom-components/about-quote-first";
 import AboutService from "@/components/custom-components/about-service";
+import OurTeam from "@/components/custom-components/our-team";
 import ServiceHero from "@/components/custom-components/service-hero";
 import React from "react";
 
@@ -13,6 +14,7 @@ const page = () => {
       <ServiceHero />
       <AboutQuote />
       <AboutCard />
+      <OurTeam />
 
     </div>
     // <div>
