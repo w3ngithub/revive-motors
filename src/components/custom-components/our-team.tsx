@@ -37,7 +37,7 @@ const OurTeam = () => {
   ];
   //   man-profile
   return (
-    <section className="container py-12 px-4 bg-white ">
+    <section className="container py-12 px-4 bg-white mb-7 ">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-h1 font-extrabold text-center mb-8">
           Meet our Team
