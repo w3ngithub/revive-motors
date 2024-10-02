@@ -2,7 +2,7 @@ import React from "react";
 
 const BlogCard = () => {
   return (
-    <section className="bg-[#f5f5f5]  min-h-[100vh] max-w-[100vw] flex flex-row justify-center items-center ">
+    <section className="bg-[#f5f5f5]  min-h-[100vh] max-w-[100vw] flex flex-row justify-center items-center pb-10 ">
       <div className="container ">
         <div className="grid lg:grid-cols-12 border border-red-500 max-h-[746px]">
           <div className="col-span-5 border border-green-500  ">
@@ -11,30 +11,30 @@ const BlogCard = () => {
               <a href="#">
                 {/*  */}
                 <img
-                  className="rounded-none border border-red-500 mt-4"
+                  className="rounded-none border border-red-500 mt-4 max-2xl:p-4"
                   src="/project/blog-car-card.png"
                   alt="Auto Diagnostics"
                   width={473}
                   height={330}
                 />
               </a>
-              <div className="p-5 border border-green-500 flex flex-col gap-4">
-                <span className="text-b2 text-customColor-grey font-semibold">
+              <div className="p-5 border border-green-500 flex flex-col gap-4 2xl:pl-4">
+                <span className="text-b2 text-customColor-grey font-semibold 2xl:pl-4">
                   Posted on October 6th 2021
                 </span>
                 <a href="#">
-                  <h4 className="mb-2 text-h4 font-bold tracking-tight text-gray-900 dark:text-white border border-red-500">
+                  <h4 className="mb-2 text-h4 font-bold tracking-tight text-gray-900 dark:text-white border border-red-500 2xl:pl-4">
                     Should I Buy a New Car or Lease a New Car in 2021?
                   </h4>
                 </a>
-                <p className="max-w-[500px] mb-3 text-b2 font-semibold text-customColor-grey leading-relaxed">
+                <p className="max-w-[500px] mb-3 text-b2 font-semibold text-customColor-grey leading-relaxed 2xl:pl-4">
                   We provide a full range of front end mechanical repairs for
                   all makes and models of cars, no matter the cause. This
                   includes, We provide a full range of front end mechanical.
                 </p>
                 <a
                   href="#"
-                  className="text-b1 font-semibold inline-flex items-center px-3 py-2 text-sm  text-left rounded-lg focus:ring-4 focus:outline-none"
+                  className="text-b1 font-semibold inline-flex items-center px-3 py-2 text-sm  text-left rounded-lg focus:ring-4 focus:outline-none 2xl:pl-4"
                 >
                   Read more
                   <svg
