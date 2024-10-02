@@ -27,7 +27,7 @@ const BlogHome = () => {
           </div>
         </div>
         <div className="col-span-7 2xl:min-h-[550px] flex justify-center">
-          <div className="  flex flex-col justify-center items-start  gap-11 w-full bg-customColor-black  p-10">
+          <div className="  flex flex-col justify-center items-start  gap-11 w-full bg-customColor-black  p-10 max-2xl:gap-5">
             <p className="text-b2 text-customColor-primary uppercase tracking-[0.4em] ">
               TRENDING
             </p>
