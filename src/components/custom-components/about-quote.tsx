@@ -15,7 +15,7 @@ const AboutQuote = () => {
           <AboutQuoteFirst />
         </div>
         <div className="col-span-5  h-[100%] ">
-          <div className="col-span-5 relative h-[773px]">
+          <div className="col-span-5 relative h-[773px] max-sm:mt-4">
             <Image
               src="/project/about-quote-car.png"
               alt="Car Pic"
