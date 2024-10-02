@@ -3,7 +3,6 @@ import React from "react";
 import { Button } from "../ui/button";
 
 const BlogHome = () => {
-  // blog-hero
   return (
     <section className=" 2xl:min-h-[550px] my-5">
       <div className="grid grid-cols-1  sm:grid-cols-12 2xl:min-h-[624px]">
@@ -29,17 +28,25 @@ const BlogHome = () => {
         </div>
         <div className="col-span-7 2xl:min-h-[550px] flex justify-center">
           <div className="  flex flex-col justify-center items-start  gap-11 w-full bg-customColor-black  p-10">
-            <h1 className="text-h1 font-extrabold text-customColor-lightGrey  leading-tight">
-              About us
-            </h1>
-            <p className="text-b1 text-customColor-lightGrey max-w-[624px] ">
-              Through True Rich Attended does no end it his mother since real
-              had half every him case in packages enquire we up ecstatic
-              unsatiable saw Through True Rich Attended does
+            <p className="text-b2 text-customColor-primary uppercase tracking-[0.4em] ">
+              TRENDING
             </p>
-            <Button className="bg-customColor-primary text-b1 text-customColor-lightGrey max-w-[177px] max-h-[64px] p-7 px-9 rounded-xl hover:bg-customColor-primary">
-              Book a service
-            </Button>
+            <h4 className="text-h4 font-bold text-customColor-lightGrey  leading-tight max-w-[582px]     ">
+              Diagnose Car Problems If You Don’t Know Much About Cars
+            </h4>
+            <p className="text-b1 font-semibold text-customColor-lightGrey max-w-[624px]    ">
+              We provide a full range of front end mechanical repairs for all
+              makes and models of cars, no matter the cause. This includes, We
+              provide a full range of front end mechanical.
+            </p>
+            <div className="flex flex-row items-center justify-center gap-8">
+              <Button className="bg-customColor-primary text-b1 text-customColor-lightGrey max-w-[177px] max-h-[64px] p-7 px-9 rounded-xl hover:bg-customColor-primary">
+                Read more
+              </Button>
+              <p className="text-b1 font-semibold text-customColor-grey">
+                Posted on October 6th 2021
+              </p>
+            </div>
           </div>
         </div>
       </div>
