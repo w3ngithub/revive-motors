@@ -1,3 +1,4 @@
+import AboutCard from "@/components/custom-components/about-card";
 import AboutDiagnostics from "@/components/custom-components/about-diagnostics";
 import AboutProcess from "@/components/custom-components/about-process";
 import AboutQuote from "@/components/custom-components/about-quote";
@@ -11,6 +12,8 @@ const page = () => {
     <div>
       <ServiceHero />
       <AboutQuote />
+      <AboutCard />
+
     </div>
     // <div>
     //   {/* <AboutDiagnostics /> */}

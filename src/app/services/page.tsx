@@ -1,3 +1,4 @@
+import AboutCard from "@/components/custom-components/about-card";
 import AboutProcess from "@/components/custom-components/about-process";
 import AboutService from "@/components/custom-components/about-service";
 import AboutSidebar from "@/components/custom-components/about-sidebar";
