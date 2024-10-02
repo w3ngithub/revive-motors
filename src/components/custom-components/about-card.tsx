@@ -86,7 +86,9 @@ const AboutCard = () => {
           </div>
         </section>
       </div>
+      <div className="border border-red-500 block">
       <CustomerSatisfaction />
+      </div>
     </>
   );
 };
