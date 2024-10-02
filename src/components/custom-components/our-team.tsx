@@ -44,10 +44,7 @@ const OurTeam = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center border border-red-500"
-            >
+            <div key={index} className="flex flex-col items-center">
               <Image
                 src={member.image}
                 alt={member.name}
