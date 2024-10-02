@@ -2,12 +2,15 @@ import React from "react";
 
 const BlogCard = () => {
   return (
-    <section className="bg-[#f5f5f5]  min-h-[100vh] max-w-[100vw] flex flex-row justify-center items-center pb-10 ">
-      <div className="container ">
-        <div className="grid lg:grid-cols-12     max-h-[746px]">
+    // min-h-[100vh]
+    <section className="bg-[#f5f5f5] min-h-screen max-w-[100vw] flex flex-row justify-center items-center pb-10 ">
+      <div className="container  ">
+        {/* max-h-[746px] */}
+        <div className="grid lg:grid-cols-12 ">
           <div className="col-span-5   ">
             {/* /////////////////////// */}
-            <div className="max-w-[537px] min-h-[746px] bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700 flex flex-col justify-start items-center">
+            {/* min-h-[746px] */}
+            <div className="max-w-[537px]  bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700 flex flex-col justify-start items-center">
               <a href="#">
                 {/*  */}
                 <img
