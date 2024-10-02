@@ -9,10 +9,11 @@ const AboutCard = () => {
 
   return (
     <>
-      <div className="bg-customColor-lightGrey ">
-        <section className="container flex flex-row justify-center min-h-[100vh] max-w-[100vw] bg-customColor-lightGrey   ">
-          <div className="   flex flex-col justify-center items-center gap-[64px] my-10">
-            <h2 className="text-h2 font-extrabold max-w-[858px] leading-tight text-center">
+      <div className="bg-customColor-lightGrey">
+        <section className="container flex flex-col justify-center min-h-[80vh] max-w-[100vw] bg-customColor-lightGrey  ">
+          {/* my-10 */}
+          <div className="    flex flex-col justify-center items-center gap-[64px] ">
+            <h2 className="text-h2 font-extrabold max-w-[858px] leading-tight text-center  max-2xl:mt-10 ">
               Services we provide to our valued customers
             </h2>
             <div className="container flex flex-row justify-center items-center flex-wrap gap-2 w-[100%%] max-2xl:w-[100%]  ">
@@ -84,10 +85,10 @@ const AboutCard = () => {
               </Card>
             </div>
           </div>
+          {/* <div className=" border border-red-500">
+            <CustomerSatisfaction />
+          </div> */}
         </section>
-      </div>
-      <div className="border border-red-500 block">
-      <CustomerSatisfaction />
       </div>
     </>
   );
