@@ -21,7 +21,7 @@ const ServicesDiagnostics = () => {
           <div className="lg:col-span-9  space-y-10">
             <div className="relative border border-green-800 w-[full] h-[334px]">
               <Image
-                src="/project/service-diagnostics.png"
+                src="/images/service-diagnostics.png"
                 alt="Car Pic"
                 layout="fill"
                 objectFit="cover"

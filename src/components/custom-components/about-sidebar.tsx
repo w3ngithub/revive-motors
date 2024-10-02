@@ -10,7 +10,7 @@ const AboutSidebar = () => {
         <CardHeader>
           <CardTitle className="flex justify-center items-center">
             <Image
-              src="/project/car-doctor.svg"
+              src="/images/car-doctor.svg"
               width={44}
               height={49}
               className="group-hover:brightness-0 group-hover:invert"
@@ -28,7 +28,7 @@ const AboutSidebar = () => {
         <CardHeader>
           <CardTitle className="flex justify-center items-center">
             <Image
-              src="/project/car-doctor.svg"
+              src="/images/car-doctor.svg"
               width={44}
               height={49}
               className="group-hover:brightness-0 group-hover:invert"
@@ -46,7 +46,7 @@ const AboutSidebar = () => {
         <CardHeader>
           <CardTitle className="flex justify-center items-center">
             <Image
-              src="/project/car-doctor.svg"
+              src="/images/car-doctor.svg"
               width={44}
               height={49}
               className="group-hover:brightness-0 group-hover:invert"

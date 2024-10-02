@@ -15,7 +15,7 @@ const BlogMultipleCars = () => {
                   {/*  */}
                   <img
                     className="rounded-none     mt-4 max-2xl:p-4"
-                    src="/project/blog-speed.png"
+                    src="/images/blog-speed.png"
                     alt="Auto Diagnostics"
                     width={405}
                     height={266}
@@ -49,7 +49,7 @@ const BlogMultipleCars = () => {
                   {/*  */}
                   <img
                     className="rounded-none     mt-4 max-2xl:p-4"
-                    src="/project/blog-speed.png"
+                    src="/images/blog-speed.png"
                     alt="Auto Diagnostics"
                     width={405}
                     height={266}
@@ -83,7 +83,7 @@ const BlogMultipleCars = () => {
                   {/*  */}
                   <img
                     className="rounded-none     mt-4 max-2xl:p-4"
-                    src="/project/blog-speed.png"
+                    src="/images/blog-speed.png"
                     alt="Auto Diagnostics"
                     width={405}
                     height={266}
@@ -117,7 +117,7 @@ const BlogMultipleCars = () => {
                   {/*  */}
                   <img
                     className="rounded-none     mt-4 max-2xl:p-4"
-                    src="/project/blog-speed.png"
+                    src="/images/blog-speed.png"
                     alt="Auto Diagnostics"
                     width={405}
                     height={266}
@@ -151,7 +151,7 @@ const BlogMultipleCars = () => {
                   {/*  */}
                   <img
                     className="rounded-none     mt-4 max-2xl:p-4"
-                    src="/project/blog-speed.png"
+                    src="/images/blog-speed.png"
                     alt="Auto Diagnostics"
                     width={405}
                     height={266}
@@ -185,7 +185,7 @@ const BlogMultipleCars = () => {
                   {/*  */}
                   <img
                     className="rounded-none     mt-4 max-2xl:p-4"
-                    src="/project/blog-speed.png"
+                    src="/images/blog-speed.png"
                     alt="Auto Diagnostics"
                     width={405}
                     height={266}

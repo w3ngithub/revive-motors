@@ -9,7 +9,7 @@ const AboutService = () => {
         <div className=" relative sm:col-span-5 h-[300px] sm:h-auto">
           {" "}
           <Image
-            src="/project/aboutCar.png"
+            src="/images/aboutCar.png"
             alt="Car Pic"
             layout="fill"
             objectFit="cover"

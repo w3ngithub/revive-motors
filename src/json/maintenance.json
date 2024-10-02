@@ -4,35 +4,35 @@
   "cards": [
     {
       "title": "Diagnostics",
-      "image": "/project/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Engine Repair",
-      "image": "/project/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Wheel Repair",
-      "image": "/project/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Oil Filter",
-      "image": "/project/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Body Work",
-      "image": "/project/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Batteries",
-      "image": "/project/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Insurance Claim",
-      "image": "/project/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Custom Service",
-      "image": "/project/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     }
   ]
 }

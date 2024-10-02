@@ -43,7 +43,7 @@ const Maintenance = () => {
                 <p className="text-b1 font-semibold">Know more about us</p>
                 <span className="">
                   <Image
-                    src="/project/right-arrow.svg"
+                    src="/images/right-arrow.svg"
                     width={52}
                     height={0}
                     alt="Right arrow"

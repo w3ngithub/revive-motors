@@ -11,7 +11,7 @@ const GetInTouch = () => {
         <div className="relative col-span-7 border-2 border-yellow-500">
           <div className="block  w-[976px] h-[502px] max-lg:hidden">
             <Image
-              src="/project/large-car.png"
+              src="/images/large-car.png"
               alt="Car Pic"
               // width={976}
               // height={502}
@@ -34,7 +34,7 @@ const GetInTouch = () => {
           {" "}
           <div className="block h-full w-full max-lg:hidden">
             <Image
-              src="/project/clips.png"
+              src="/images/clips.png"
               alt="Car Pic"
               //   width={944}
               //   height={502}

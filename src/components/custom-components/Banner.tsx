@@ -12,7 +12,7 @@ const Banner = () => {
         {/* Left Image */}
         <div className="block col-span-2 relative max-lg:hidden">
           <Image
-            src="/project/large-carss.png"
+            src="/images/large-carss.png"
             alt="Car Pic"
             layout="fill"
             objectFit="cover"
@@ -28,7 +28,7 @@ const Banner = () => {
         {/* Right Image */}
         <div className="col-span-5 relative  max-lg:col-span-1">
           <Image
-            src="/project/clips.png"
+            src="/images/clips.png"
             alt="Car Pic"
             layout="fill"
             objectFit="cover"

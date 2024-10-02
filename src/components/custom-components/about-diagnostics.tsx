@@ -17,7 +17,7 @@ const AboutDiagnostics = () => {
                 <a href="#">
                   <img
                     className="rounded-t-lg"
-                    src="/project/about-diagnostics.png"
+                    src="/images/about-diagnostics.png"
                     alt="Auto Diagnostics"
                   />
                 </a>
@@ -68,7 +68,7 @@ const AboutDiagnostics = () => {
                   <CardHeader>
                     <CardTitle className="flex justify-center items-center">
                       <Image
-                        src="/project/car-doctor.svg"
+                        src="/images/car-doctor.svg"
                         width={44}
                         height={49}
                         className="group-hover:brightness-0 group-hover:invert"
@@ -86,7 +86,7 @@ const AboutDiagnostics = () => {
                   <CardHeader>
                     <CardTitle className="flex justify-center items-center">
                       <Image
-                        src="/project/car-doctor.svg"
+                        src="/images/car-doctor.svg"
                         width={44}
                         height={49}
                         className="group-hover:brightness-0 group-hover:invert"
@@ -104,7 +104,7 @@ const AboutDiagnostics = () => {
                   <CardHeader>
                     <CardTitle className="flex justify-center items-center">
                       <Image
-                        src="/project/car-doctor.svg"
+                        src="/images/car-doctor.svg"
                         width={44}
                         height={49}
                         className="group-hover:brightness-0 group-hover:invert"
@@ -122,7 +122,7 @@ const AboutDiagnostics = () => {
                   <CardHeader>
                     <CardTitle className="flex justify-center items-center">
                       <Image
-                        src="/project/car-doctor.svg"
+                        src="/images/car-doctor.svg"
                         width={44}
                         height={49}
                         className="group-hover:brightness-0 group-hover:invert"
@@ -140,7 +140,7 @@ const AboutDiagnostics = () => {
                   <CardHeader>
                     <CardTitle className="flex justify-center items-center">
                       <Image
-                        src="/project/car-doctor.svg"
+                        src="/images/car-doctor.svg"
                         width={44}
                         height={49}
                         className="group-hover:brightness-0 group-hover:invert"
@@ -158,7 +158,7 @@ const AboutDiagnostics = () => {
                   <CardHeader>
                     <CardTitle className="flex justify-center items-center">
                       <Image
-                        src="/project/car-doctor.svg"
+                        src="/images/car-doctor.svg"
                         width={44}
                         height={49}
                         className="group-hover:brightness-0 group-hover:invert"

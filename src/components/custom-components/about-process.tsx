@@ -26,14 +26,14 @@ const AboutProcess = () => {
         </div>
         <div className="grid grid-cols-2 gap-4  ">
           <Image
-            src="/project/about-process-car.png"
+            src="/images/about-process-car.png"
             alt="Car service 1"
             width={300}
             height={300}
             className="object-cover w-full h-full"
           />
           <Image
-            src="/project/about-process-car-two.png"
+            src="/images/about-process-car-two.png"
             alt="Car service 2"
             width={300}
             height={300}
@@ -45,14 +45,14 @@ const AboutProcess = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center  ">
         <div className="grid grid-cols-2 gap-4  ">
           <Image
-            src="/project/about-process-wheel.png"
+            src="/images/about-process-wheel.png"
             alt="Car part 1"
             width={300}
             height={300}
             className="object-cover w-full h-full"
           />
           <Image
-            src="/project/about-process-lambo.png"
+            src="/images/about-process-lambo.png"
             alt="Car part 2"
             width={300}
             height={300}

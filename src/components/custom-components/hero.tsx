@@ -36,12 +36,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex justify-end ">
-          {/* <Image
-            src="/project/hero.png"
-            alt="Hero icon"
-            width={605}
-            height={632}
-          /> */}
+         
           <Image
             src={heroImage.src}
             alt={heroImage.altText}

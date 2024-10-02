@@ -10,7 +10,7 @@ const ServiceHero = () => {
         <div className=" relative sm:col-span-5 h-[300px] sm:h-auto">
           {" "}
           <Image
-            src="/project/aboutHero.png"
+            src="/images/aboutHero.png"
             alt="Car Pic"
             layout="fill"
             objectFit="cover"

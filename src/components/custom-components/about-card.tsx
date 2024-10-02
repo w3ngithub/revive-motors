@@ -21,7 +21,7 @@ const AboutCard = () => {
                 <CardHeader>
                   <CardTitle className="flex justify-center items-center">
                     <Image
-                      src="/project/about-tool-logo.svg"
+                      src="/images/about-tool-logo.svg"
                       width={64}
                       height={64}
                       className=""
@@ -43,7 +43,7 @@ const AboutCard = () => {
                 <CardHeader>
                   <CardTitle className="flex justify-center items-center">
                     <Image
-                      src="/project/about-tool-logo.svg"
+                      src="/images/about-tool-logo.svg"
                       width={64}
                       height={64}
                       className=""
@@ -65,7 +65,7 @@ const AboutCard = () => {
                 <CardHeader>
                   <CardTitle className="flex justify-center items-center">
                     <Image
-                      src="/project/about-tool-logo.svg"
+                      src="/images/about-tool-logo.svg"
                       width={64}
                       height={64}
                       className=""

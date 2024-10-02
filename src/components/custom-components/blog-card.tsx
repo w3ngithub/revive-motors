@@ -16,7 +16,7 @@ const BlogCard = () => {
                 {/*  */}
                 <img
                   className="rounded-none     mt-4 max-2xl:p-4"
-                  src="/project/blog-car-card.png"
+                  src="/images/blog-car-card.png"
                   alt="Auto Diagnostics"
                   width={473}
                   height={330}
