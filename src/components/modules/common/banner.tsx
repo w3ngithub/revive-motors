@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Middle from "../banner/middle";
-// import Middle from "../middle";
-// import Middle from "../../custom-components/";
+import Middle from "./middle";
 
 const Banner = () => {
   // min-h-[100vh]
