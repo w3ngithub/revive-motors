@@ -6,15 +6,15 @@ const ContactForm = () => {
   return (
     <>
       <section className="flex flex-row items-center justify-center min-h-[100vh] w-full overflow-hidden   bg-customColor-white ">
-        <div className="container grid grid-cols-1 lg:grid-cols-2 border border-red-500 w-[1244px] h-[628px] gap-11">
-          <div className="border border-red-500 ">
+        <div className="container grid grid-cols-1 lg:grid-cols-2    w-[1244px] h-auto lg:h-[628px] gap-11">
+          <div className="   ">
             {" "}
             <div className="">
               <div className="flex flex-col gap-6">
-                <h1 className="text-h1 max-w-[507px]  border border-green-500 font-extrabold leading-tight max-lg:mt-7 max-sm:font-extrabold">
+                <h1 className="text-h1 max-w-[507px]    font-extrabold leading-tight max-lg:mt-7 max-sm:font-extrabold">
                   Get in touch with our experts
                 </h1>
-                <form className="flex flex-col flex-wrap gap-1 border border-red-500">
+                <form className="flex flex-col flex-wrap gap-1   ">
                   {/* sm:w-[480px] md:w-[540px] lg:w-[624px] */}
                   <Input
                     className="h-[72px] w-full  rounded-sm bg-customColor-lightGrey text-b2 text-customColor-black font-semibold"
@@ -39,8 +39,8 @@ const ContactForm = () => {
               </div>
             </div>
           </div>
-          <div className="border-2 border-green-500 flex flex-col justify-center items-between gap-6">
-            <div className="flex flex-col gap-5   border border-red-500">
+          <div className=" flex flex-col justify-center items-between gap-6 max-sm:mb-5">
+            <div className="flex flex-col gap-5     ">
               <div>
                 <p className="text-b2 font-semibold mb-1 text-customColor-grey">
                   Address
@@ -50,7 +50,7 @@ const ContactForm = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col gap-5   border border-red-500 ">
+            <div className="flex flex-col gap-5      ">
               <div>
                 <p className="text-b2 font-semibold mb-1 text-customColor-grey">
                   Contact Details
@@ -60,7 +60,7 @@ const ContactForm = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col gap-5 border border-red-500">
+            <div className="flex flex-col gap-5   ">
               <div>
                 <p className="text-b2  font-semibold mb-1 text-customColor-grey">
                   Opening Hours
