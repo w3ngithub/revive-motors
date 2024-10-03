@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import Middle from "../middle";
+import Middle from "../banner/middle";
+// import Middle from "../middle";
 // import Middle from "../../custom-components/";
 
 const Banner = () => {

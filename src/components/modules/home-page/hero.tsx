@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import Image from "next/image";
-import heroData from "../../json/hero.json";
+import heroData from "../../../json/hero.json";
 import { Heading } from "lucide-react";
 
 const Hero = () => {

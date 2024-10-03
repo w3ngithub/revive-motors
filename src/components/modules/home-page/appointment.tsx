@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import Image from "next/image";
-import appointmentData from "../../json/appointment.json";
+import appointmentData from "../../../json/appointment.json";
 
 const Appointment = () => {
   const { leftContent, rightContent } = appointmentData;

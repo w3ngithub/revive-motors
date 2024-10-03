@@ -2,8 +2,8 @@ import Image from "next/image";
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Input } from "@/components/ui/input";
-import { Button } from "../ui/button";
-import serviceFormData from "../../json/serviceForm.json";
+import { Button } from "../../ui/button";
+import serviceFormData from "../../../json/serviceForm.json";
 
 const ServiceForm = () => {
   const { heading, services, knowMore, form } = serviceFormData;

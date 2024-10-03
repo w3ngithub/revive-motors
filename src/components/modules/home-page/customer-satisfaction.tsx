@@ -1,6 +1,6 @@
 import React from "react";
 
-import customerSatisfactionData from "../../json/customer-satisfaction.json";
+import customerSatisfactionData from "../../../json/customer-satisfaction.json";
 
 const CustomerSatisfaction = () => {
   return (

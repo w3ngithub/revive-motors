@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import brandsData from "../../json/brands.json";
+import brandsData from "../../../json/brands.json";
 
 const Brands = () => {
   // heading, logo, logo title, logo src, logo alt
