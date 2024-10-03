@@ -16,7 +16,7 @@ const serviceItems = [
 
 export default function AboutDiagnostics() {
   return (
-    <section className="bg-white py-12">
+    <section className="bg-customColor-lightGrey py-12">
       <div className="container ">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="lg:w-1/2">
@@ -27,7 +27,8 @@ export default function AboutDiagnostics() {
                   alt="Auto Diagnostics"
                   width={600}
                   height={300}
-                  className="w-full h-48 object-cover"
+                  // h-48
+                  className="w-full  object-cover"
                 />
                 <div className="p-6">
                   <h3 className="text-h3 font-bold mb-4">Auto Diagnostics</h3>
