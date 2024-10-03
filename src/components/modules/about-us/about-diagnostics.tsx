@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
-
+// icon: "/images/about-diagnostics.png",
 const serviceItems = [
   {
     title: "Auto Diagnostics",
@@ -24,7 +24,7 @@ export default function AboutDiagnostics() {
             <Card className="h-full">
               <CardContent className="p-0">
                 <Image
-                  src="/placeholder.svg?height=300&width=600"
+                  src="/images/about-diagnostics.png"
                   alt="Auto Diagnostics"
                   width={600}
                   height={300}
