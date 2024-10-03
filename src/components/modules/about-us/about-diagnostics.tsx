@@ -17,7 +17,7 @@ const serviceItems = [
 export default function AboutDiagnostics() {
   return (
     <section className="bg-white py-12">
-      <div className="container mx-auto px-4">
+      <div className="container ">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="lg:w-1/2">
             <Card className="h-full">
