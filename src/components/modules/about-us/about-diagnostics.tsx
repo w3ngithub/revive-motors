@@ -31,8 +31,8 @@ export default function AboutDiagnostics() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold mb-4">Auto Diagnostics</h2>
-                  <p className="text-gray-600 mb-4">
+                  <h3 className="text-h3 font-bold mb-4">Auto Diagnostics</h3>
+                  <p className="text-customColor-grey mb-4 text-t2 font-semibold">
                     Through True Rich Attended does no end it his mother since
                     favorable real had half every him case in packages enquire
                     we up ecstatic. Through True Rich Attended does no end it
@@ -40,21 +40,22 @@ export default function AboutDiagnostics() {
                   </p>
                   <a
                     href="#"
-                    className="text-orange-500 font-semibold flex items-center"
+                    className="text-b1 font-semibold flex items-center"
                   >
                     See service details
                     <svg
-                      className="w-4 h-4 ml-2"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
+                      className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
                     >
                       <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
                       />
                     </svg>
                   </a>
