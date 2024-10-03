@@ -4,8 +4,7 @@ import Image from "next/image";
 export default function AboutBanner() {
   const banners = [
     {
-      title: "Serve our customers",
-      subtitle: "and always deliver the customer service",
+      title: "Serve our customers and always deliver the customer service",
       description:
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
       bgColor: "bg-orange-500",
@@ -13,8 +12,7 @@ export default function AboutBanner() {
       image: "/images/about-banner-first.png",
     },
     {
-      title: "To be the world's most",
-      subtitle: "leader in automotive business solutions.",
+      title: "To be the world's most leader in automotive business solutions.",
       description:
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
       bgColor: "bg-black",
@@ -22,8 +20,8 @@ export default function AboutBanner() {
       image: "/images/about-banner-first.png",
     },
     {
-      title: "We value the service we",
-      subtitle: "provide and our loyal returning customers",
+      title:
+        "We value the service we provide and our loyal returning customers",
       description:
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
       bgColor: "bg-purple-600",
@@ -48,9 +46,13 @@ export default function AboutBanner() {
               className={`absolute inset-0 ${banner.bgColor} bg-opacity-70 z-10`}
             />
             <div className="relative z-20 p-8 h-full flex flex-col justify-center text-white">
-              <h2 className="text-2xl font-bold mb-2">{banner.title}</h2>
-              <h3 className="text-xl font-semibold mb-4">{banner.subtitle}</h3>
-              <p className="text-sm">{banner.description}</p>
+              <h4 className="text-h4 font-bold leading-tight max-2xl:text-h5  max-w-[350px]">
+                {banner.title}
+              </h4>
+              {/* <h3 className="text-h4 font-bold mb-4">{banner.subtitle}</h3> */}
+              <p className="text-t2 font-semibold text-customColor-steelGrey leading-tight  max-2xl:text-b2 max-2xl:mt-4 max-2xl:leading-2  max-w-[300px]">
+                {banner.description}
+              </p>
             </div>
           </div>
         ))}
