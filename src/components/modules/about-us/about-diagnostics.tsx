@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
+import Link from "next/link";
 const serviceItems = [
   {
     title: "Auto Diagnostics",
@@ -37,8 +38,8 @@ export default function AboutDiagnostics() {
                     we up ecstatic. Through True Rich Attended does no end it
                     his mother.
                   </p>
-                  <a
-                    href="#"
+                  <Link
+                    href="/services/service-details"
                     className="text-b1 font-semibold flex items-center"
                   >
                     See service details
@@ -57,7 +58,7 @@ export default function AboutDiagnostics() {
                         d="M1 5h12m0 0L9 1m4 4L9 9"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </CardContent>
             </Card>
@@ -65,23 +66,29 @@ export default function AboutDiagnostics() {
           <div className="lg:w-1/2">
             <div className="grid grid-cols-2 gap-4  h-full">
               {serviceItems.map((item, index) => (
-                <Card
+                <Link
+                  className="border border-red-500"
+                  href="/services/service-details"
                   key={index}
-                  className="group hover:bg-customColor-primary transition-colors rounded-none"
                 >
-                  <CardContent className="p-4 flex flex-col items-center justify-center h-full rounded-none min-h-full">
-                    <Image
-                      src={item.icon}
-                      alt={item.title}
-                      width={44}
-                      height={44}
-                      className="mb-4 group-hover:brightness-0 group-hover:invert"
-                    />
-                    <p className="text-t2 text-center font-semibold group-hover:text-white">
-                      {item.title}
-                    </p>
-                  </CardContent>
-                </Card>
+                  <Card
+                    key={index}
+                    className="group hover:bg-customColor-primary transition-colors rounded-none"
+                  >
+                    <CardContent className="p-4 flex flex-col items-center justify-center h-full rounded-none min-h-full">
+                      <Image
+                        src={item.icon}
+                        alt={item.title}
+                        width={44}
+                        height={44}
+                        className="mb-4 group-hover:brightness-0 group-hover:invert"
+                      />
+                      <p className="text-t2 text-center font-semibold group-hover:text-white">
+                        {item.title}
+                      </p>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           </div>
