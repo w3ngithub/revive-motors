@@ -10,7 +10,7 @@ const ContactForm = () => {
           <div className="   ">
             {" "}
             <div className="">
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-6 max-2xl:my-10">
                 <h1 className="text-h1 max-w-[507px]    font-extrabold leading-tight max-lg:mt-7 max-sm:font-extrabold">
                   Get in touch with our experts
                 </h1>
