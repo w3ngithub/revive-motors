@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
-// icon: "/images/about-diagnostics.png",
 const serviceItems = [
   {
     title: "Auto Diagnostics",
