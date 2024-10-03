@@ -67,13 +67,13 @@ export default function AboutDiagnostics() {
             <div className="grid grid-cols-2 gap-4  h-full">
               {serviceItems.map((item, index) => (
                 <Link
-                  className="border border-red-500"
+                  className=" block h-full"
                   href="/services/service-details"
                   key={index}
                 >
                   <Card
-                    key={index}
-                    className="group hover:bg-customColor-primary transition-colors rounded-none"
+                    // key={index}
+                    className="group hover:bg-customColor-primary transition-colors rounded-none h-full"
                   >
                     <CardContent className="p-4 flex flex-col items-center justify-center h-full rounded-none min-h-full">
                       <Image
