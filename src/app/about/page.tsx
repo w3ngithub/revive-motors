@@ -1,3 +1,4 @@
+import AboutBanner from "@/components/modules/about-us/about-banner";
 import AboutCard from "@/components/modules/about-us/about-card";
 import AboutQuote from "@/components/modules/about-us/about-quote";
 import Banner from "@/components/modules/common/banner";
@@ -11,6 +12,7 @@ const page = () => {
     <div>
       <ServiceHero />
       <AboutQuote />
+      <AboutBanner />
       <AboutCard />
       <CustomerSatisfaction />
       <OurTeam />
