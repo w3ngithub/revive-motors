@@ -3,8 +3,8 @@ import React from "react";
 
 const ContactMap = () => {
   return (
-    <section className="border border-red-500">
-      <div className="relative max-w-[100vw] min-h-[80vh]">
+    <section className="">
+      <div className="relative max-w-[100vw] min-h-[80vh] max-lg:min-h-[50vh]">
         {/* second image */}
         <img
           src="/images/blog-map-cover.png"
