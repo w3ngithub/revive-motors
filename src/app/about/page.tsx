@@ -1,6 +1,7 @@
 import AboutCard from "@/components/modules/about-us/about-card";
 import AboutQuote from "@/components/modules/about-us/about-quote";
 import Banner from "@/components/modules/common/banner";
+import CustomerSatisfaction from "@/components/modules/home-page/customer-satisfaction";
 import OurTeam from "@/components/modules/our-team/our-team";
 import ServiceHero from "@/components/modules/services/service-hero";
 import React from "react";
@@ -11,14 +12,10 @@ const page = () => {
       <ServiceHero />
       <AboutQuote />
       <AboutCard />
-      {/* <CustomerSatisfaction /> */}
+      <CustomerSatisfaction />
       <OurTeam />
       <Banner />
     </div>
-    // <div>
-    //   {/* <AboutDiagnostics /> */}
-    //   <AboutProcess />
-    // </div>
   );
 };
 
