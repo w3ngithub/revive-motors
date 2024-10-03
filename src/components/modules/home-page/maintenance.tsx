@@ -1,7 +1,7 @@
 "use client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
-import cardData from "../../json/maintenance.json";
+import cardData from "../../../json/maintenance.json";
 
 const Maintenance = () => {
   const { smallHeading, largeHeading, cards } = cardData;

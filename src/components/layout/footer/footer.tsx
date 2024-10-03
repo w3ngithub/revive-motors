@@ -1,7 +1,7 @@
 import React from "react";
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 import Link from "next/link";
-import footerData from "../../json/footer.json";
+import footerData from "../../../json/footer.json";
 
 const Footer = () => {
   const { getInTouch, contactInfo, navigation, copyright } = footerData;

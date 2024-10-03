@@ -12,15 +12,17 @@ import ServiceHero from "@/components/custom-components/service-hero";
 import React from "react";
 
 const page = () => {
-  return (
-    <div>
-      <ServiceHero />
-      <AboutQuote />
-      <AboutCard />
-      <CustomerSatisfaction />
-      <OurTeam />
-      <Banner />
-    </div>
+  return ( 
+    <>
+    </>
+    // <div>
+    //   <ServiceHero />
+    //   <AboutQuote />
+    //   <AboutCard />
+    //   {/* <CustomerSatisfaction /> */}
+    //   <OurTeam />
+    //   {/* <Banner /> */}
+    // </div>
     // <div>
     //   {/* <AboutDiagnostics /> */}
     //   <AboutProcess />

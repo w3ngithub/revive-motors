@@ -8,17 +8,20 @@ import React from "react";
 
 const page = () => {
   return (
+    <>
+    
+    </>
     // <>
     //   {/* <AboutSidebar />
     //   <AboutSidebarSecond /> */}
     //   {/* <ServicesDiagnostics /> */}
     // </>
-       <div>
-       <AboutService />
-       {/* <AboutDiagnostics /> */}
-       <AboutProcess />
-     </div>
-  );
+    //    <div>
+    //    <AboutService />
+    //    {/* <AboutDiagnostics /> */}
+    //    <AboutProcess />
+    //  </div>
+  )
 };
 
 export default page;

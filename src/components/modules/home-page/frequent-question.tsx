@@ -5,7 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import frequentQuestionData from "../../json/frequent-question.json";
+import frequentQuestionData from "../../../json/frequent-question.json";
 
 const FrequentQuestion = () => {
   const { heading, questions } = frequentQuestionData;

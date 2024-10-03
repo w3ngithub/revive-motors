@@ -6,9 +6,11 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <BlogHome />
-      <BlogCard />
-      <BlogMultipleCars />
+      {/* <div>
+        <BlogHome />
+        <BlogCard />
+        <BlogMultipleCars />
+      </div> */}
     </>
   );
 };

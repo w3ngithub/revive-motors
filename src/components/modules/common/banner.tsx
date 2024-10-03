@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "../ui/button";
-import Middle from "./middle";
+import Middle from "../middle";
+// import Middle from "../../custom-components/";
 
 const Banner = () => {
   // min-h-[100vh]
