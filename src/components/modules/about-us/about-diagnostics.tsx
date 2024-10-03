@@ -6,7 +6,6 @@ const serviceItems = [
   {
     title: "Auto Diagnostics",
     icon: "/images/car-doctor.svg",
-    color: "bg-orange-500",
   },
   { title: "Body Work", icon: "/images/car-doctor.svg" },
   { title: "Batteries", icon: "/images/car-doctor.svg" },
@@ -68,21 +67,19 @@ export default function AboutDiagnostics() {
               {serviceItems.map((item, index) => (
                 <Card
                   key={index}
-                  className={`group hover:bg-orange-500 transition-colors ${
-                    item.color || ""
-                  }`}
+                  className="group hover:bg-customColor-primary transition-colors"
                 >
-                  <CardContent className="p-4 flex flex-col items-center justify-center h-full">
+                  <CardContent className="p-4 flex flex-col items-center justify-center h-full ">
                     <Image
                       src={item.icon}
                       alt={item.title}
                       width={44}
                       height={44}
-                      className="mb-4 group-hover:filter group-hover:invert"
+                      className="mb-4 group-hover:brightness-0 group-hover:invert"
                     />
-                    <h3 className="text-center font-semibold group-hover:text-white">
+                    <p className="text-t2 text-center font-semibold group-hover:text-white">
                       {item.title}
-                    </h3>
+                    </p>
                   </CardContent>
                 </Card>
               ))}
