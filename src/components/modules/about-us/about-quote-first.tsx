@@ -1,5 +1,5 @@
 import React from "react";
-import appointmentData from "../../json/appointment.json";
+import appointmentData from "../../../json/appointment.json";
 
 const AboutQuoteFirst = () => {
   const { leftContent, rightContent } = appointmentData;

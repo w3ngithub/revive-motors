@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
-import cardData from "../../json/maintenance.json";
-import CustomerSatisfaction from "./customer-satisfaction";
+import cardData from "../../../json/maintenance.json";
+// import CustomerSatisfaction from "./customer-satisfaction";
 
 const AboutCard = () => {
   const { smallHeading, largeHeading, cards } = cardData;
