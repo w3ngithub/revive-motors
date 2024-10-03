@@ -6,7 +6,7 @@ const ContactForm = () => {
   return (
     <>
       <section className="flex flex-row items-center justify-center min-h-[100vh] w-full overflow-hidden   bg-customColor-white ">
-        <div className="container grid grid-cols-1 lg:grid-cols-2 border border-red-500 w-[1244px] h-[628px]">
+        <div className="container grid grid-cols-1 lg:grid-cols-2 border border-red-500 w-[1244px] h-[628px] gap-11">
           <div className="border border-red-500 ">
             {" "}
             <div className="">
@@ -39,28 +39,34 @@ const ContactForm = () => {
               </div>
             </div>
           </div>
-          <div className="border border-red-500">
-            <div className="flex flex-col gap-5 border border-red-500">
+          <div className="border-2 border-green-500 flex flex-col justify-center items-between gap-6">
+            <div className="flex flex-col gap-5   border border-red-500">
               <div>
-                <p className="text-b2 mb-1 text-customColor-grey">Address</p>
+                <p className="text-b2 font-semibold mb-1 text-customColor-grey">
+                  Address
+                </p>
                 <p className="text-t2 font-semibold max-sm:text-b1 text-customColor-black">
                   NH 234 Public Square San Francisco 65368
                 </p>
               </div>
             </div>
-            <div className="flex flex-col gap-5 border border-red-500">
+            <div className="flex flex-col gap-5   border border-red-500 ">
               <div>
-                <p className="text-b2 mb-1 text-customColor-grey">Address</p>
-                <p className="text-t2 font-semibold max-sm:text-b1 text-customColor-black">
-                  NH 234 Public Square San Francisco 65368
+                <p className="text-b2 font-semibold mb-1 text-customColor-grey">
+                  Contact Details
+                </p>
+                <p className="text-t2 max-w-[231px] font-semibold max-sm:text-b1 text-customColor-black">
+                  1800 265 24 52 Finsweet@gmail.com
                 </p>
               </div>
             </div>
             <div className="flex flex-col gap-5 border border-red-500">
               <div>
-                <p className="text-b2 mb-1 text-customColor-grey">Address</p>
+                <p className="text-b2  font-semibold mb-1 text-customColor-grey">
+                  Opening Hours
+                </p>
                 <p className="text-t2 font-semibold max-sm:text-b1 text-customColor-black">
-                  NH 234 Public Square San Francisco 65368
+                  Monday to Friday 9:00 AM to 10:00 AM
                 </p>
               </div>
             </div>
