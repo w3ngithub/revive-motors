@@ -1,186 +1,94 @@
 import React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 
-const AboutDiagnostics = () => {
-  //
+const serviceItems = [
+  {
+    title: "Auto Diagnostics",
+    icon: "/images/car-doctor.svg",
+    color: "bg-orange-500",
+  },
+  { title: "Body Work", icon: "/images/car-doctor.svg" },
+  { title: "Batteries", icon: "/images/car-doctor.svg" },
+  { title: "Car wash", icon: "/images/car-doctor.svg" },
+  { title: "AC Repair", icon: "/images/car-doctor.svg" },
+  { title: "Engine Repair", icon: "/images/car-doctor.svg" },
+];
+
+export default function AboutDiagnostics() {
   return (
-    <section className="bg-customColor-lightGrey  min-h-[100vh] max-w-[100vw] border border-red-500  flex justify-center items-center">
-      <div className="   bg-customColor-lightGrey   max-2xl:my-10 border border-red-500">
-        <div className="container  bg-customColor-lightGrey   ">
-          <div className="grid sm:grid-cols-2 h-[760px]">
-            <div className=" w-full h-full">
-              {/* /////////////////////// */}
-              {/* 1st part */}
-              {/* max-w-sm */}
-              <div className="max-w-[624px] min-h-[710px] bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700 flex flex-col justify-center items-center">
-                <a href="#">
-                  <img
-                    className="rounded-t-lg"
-                    src="/images/about-diagnostics.png"
-                    alt="Auto Diagnostics"
-                  />
-                </a>
-                <div className="p-5">
-                  <a href="#">
-                    <h5 className="mb-2 text-h3 font-bold tracking-tight text-gray-900 dark:text-white">
-                      Auto Diagnostics
-                    </h5>
-                  </a>
-                  <p className="max-w-[500px] mb-3 text-t2 font-normal text-customColor-grey ">
+    <section className="bg-white py-12">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="lg:w-1/2">
+            <Card className="h-full">
+              <CardContent className="p-0">
+                <Image
+                  src="/placeholder.svg?height=300&width=600"
+                  alt="Auto Diagnostics"
+                  width={600}
+                  height={300}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-6">
+                  <h2 className="text-2xl font-bold mb-4">Auto Diagnostics</h2>
+                  <p className="text-gray-600 mb-4">
                     Through True Rich Attended does no end it his mother since
-                    favourable real had half every him case in packages enquire
+                    favorable real had half every him case in packages enquire
                     we up ecstatic. Through True Rich Attended does no end it
                     his mother.
                   </p>
                   <a
                     href="#"
-                    className="text-b1 font-semibold inline-flex items-center px-3 py-2 text-sm  text-center rounded-lg focus:ring-4 focus:outline-none"
+                    className="text-orange-500 font-semibold flex items-center"
                   >
                     See service details
                     <svg
-                      className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-4 h-4 ml-2"
                       fill="none"
-                      viewBox="0 0 14 10"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 5l7 7-7 7"
                       />
                     </svg>
                   </a>
                 </div>
-              </div>
-
-              {/* ///////////////////// */}
-            </div>
-            <div className="">
-              {/* ////////////////////////// */}
-              {/* 2nd part */}
-
-              <div className="flex flex-row justify-start items-center flex-wrap gap-2 w-[100%] max-2xl:w-[100%]">
-                <Card className="group flex flex-col justify-center items-center w-[316px] h-[232px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
-                  <CardHeader>
-                    <CardTitle className="flex justify-center items-center">
-                      <Image
-                        src="/images/car-doctor.svg"
-                        width={44}
-                        height={49}
-                        className="group-hover:brightness-0 group-hover:invert"
-                        alt="Diagnostics"
-                      />
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-center text-t2 font-semibold group-hover:text-customColor-white">
-                      Auto Diagnostics
-                    </p>
+              </CardContent>
+            </Card>
+          </div>
+          <div className="lg:w-1/2">
+            <div className="grid grid-cols-2 gap-4">
+              {serviceItems.map((item, index) => (
+                <Card
+                  key={index}
+                  className={`group hover:bg-orange-500 transition-colors ${
+                    item.color || ""
+                  }`}
+                >
+                  <CardContent className="p-4 flex flex-col items-center justify-center h-full">
+                    <Image
+                      src={item.icon}
+                      alt={item.title}
+                      width={44}
+                      height={44}
+                      className="mb-4 group-hover:filter group-hover:invert"
+                    />
+                    <h3 className="text-center font-semibold group-hover:text-white">
+                      {item.title}
+                    </h3>
                   </CardContent>
                 </Card>
-                <Card className="group flex flex-col justify-center items-center w-[316px] h-[232px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
-                  <CardHeader>
-                    <CardTitle className="flex justify-center items-center">
-                      <Image
-                        src="/images/car-doctor.svg"
-                        width={44}
-                        height={49}
-                        className="group-hover:brightness-0 group-hover:invert"
-                        alt="Diagnostics"
-                      />
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-center text-t2 font-semibold group-hover:text-customColor-white">
-                      Auto Diagnostics
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="group flex flex-col justify-center items-center w-[316px] h-[232px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
-                  <CardHeader>
-                    <CardTitle className="flex justify-center items-center">
-                      <Image
-                        src="/images/car-doctor.svg"
-                        width={44}
-                        height={49}
-                        className="group-hover:brightness-0 group-hover:invert"
-                        alt="Diagnostics"
-                      />
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-center text-t2 font-semibold group-hover:text-customColor-white">
-                      Auto Diagnostics
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="group flex flex-col justify-center items-center w-[316px] h-[232px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
-                  <CardHeader>
-                    <CardTitle className="flex justify-center items-center">
-                      <Image
-                        src="/images/car-doctor.svg"
-                        width={44}
-                        height={49}
-                        className="group-hover:brightness-0 group-hover:invert"
-                        alt="Diagnostics"
-                      />
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-center text-t2 font-semibold group-hover:text-customColor-white">
-                      Auto Diagnostics
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="group flex flex-col justify-center items-center w-[316px] h-[232px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
-                  <CardHeader>
-                    <CardTitle className="flex justify-center items-center">
-                      <Image
-                        src="/images/car-doctor.svg"
-                        width={44}
-                        height={49}
-                        className="group-hover:brightness-0 group-hover:invert"
-                        alt="Diagnostics"
-                      />
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-center text-t2 font-semibold group-hover:text-customColor-white">
-                      Auto Diagnostics
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="group flex flex-col justify-center items-center w-[316px] h-[232px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
-                  <CardHeader>
-                    <CardTitle className="flex justify-center items-center">
-                      <Image
-                        src="/images/car-doctor.svg"
-                        width={44}
-                        height={49}
-                        className="group-hover:brightness-0 group-hover:invert"
-                        alt="Diagnostics"
-                      />
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-center text-t2 font-semibold group-hover:text-customColor-white">
-                      Auto Diagnostics
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
-
-              {/* //////////////////////// */}
+              ))}
             </div>
           </div>
         </div>
       </div>
     </section>
   );
-};
-
-export default AboutDiagnostics;
+}

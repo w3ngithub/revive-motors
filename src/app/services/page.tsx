@@ -1,4 +1,4 @@
-
+import AboutDiagnostics from "@/components/modules/about-us/about-diagnostics";
 import AboutProcess from "@/components/modules/about-us/about-process";
 import AboutService from "@/components/modules/about-us/about-service";
 import React from "react";
@@ -12,7 +12,7 @@ const page = () => {
     // </>
     <div>
       <AboutService />
-      {/* <AboutDiagnostics /> */}
+      <AboutDiagnostics />
       <AboutProcess />
     </div>
   );
