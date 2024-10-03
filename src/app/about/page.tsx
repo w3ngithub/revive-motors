@@ -1,5 +1,4 @@
 
-// import ServiceHero from "@/components/custom-components/service-hero";
 import AboutCard from "@/components/modules/about-us/about-card";
 import AboutQuote from "@/components/modules/about-us/about-quote";
 import OurTeam from "@/components/modules/our-team/our-team";
