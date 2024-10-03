@@ -46,7 +46,7 @@ export default function AboutBanner() {
               className={`absolute inset-0 ${banner.bgColor} bg-opacity-70 z-10`}
             />
             <div className="relative z-20 p-8 h-full flex flex-col justify-center text-white">
-              <h4 className="text-h4 font-bold leading-tight max-2xl:text-h5  max-w-[350px]">
+              <h4 className="text-h4 font-bold leading-tight max-2xl:text-h5  max-w-[350px] sm:max-md:text-h6">
                 {banner.title}
               </h4>
               {/* <h3 className="text-h4 font-bold mb-4">{banner.subtitle}</h3> */}
