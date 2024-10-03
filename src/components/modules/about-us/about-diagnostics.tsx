@@ -63,13 +63,13 @@ export default function AboutDiagnostics() {
             </Card>
           </div>
           <div className="lg:w-1/2">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4  h-full">
               {serviceItems.map((item, index) => (
                 <Card
                   key={index}
-                  className="group hover:bg-customColor-primary transition-colors"
+                  className="group hover:bg-customColor-primary transition-colors rounded-none"
                 >
-                  <CardContent className="p-4 flex flex-col items-center justify-center h-full ">
+                  <CardContent className="p-4 flex flex-col items-center justify-center h-full rounded-none min-h-full">
                     <Image
                       src={item.icon}
                       alt={item.title}
