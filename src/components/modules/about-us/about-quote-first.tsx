@@ -3,9 +3,10 @@ import appointmentData from "../../../json/appointment.json";
 
 const AboutQuoteFirst = () => {
   const { leftContent, rightContent } = appointmentData;
+  // max-2xl:mr-[150px]
 
   return (
-    <div className="container">
+    <div className="container border border-purple-700 max-2xl:mr-[150px] ">
       <div>
         <h3 className="text-h3 font-bold text-customColor-black  max-w-[614px]    leading-tight">
           We Provide Expert Service and aim to have a long term with you
