@@ -1,8 +1,8 @@
 import { secureHeapUsed } from "crypto";
 import React from "react";
-import AboutSidebar from "./about-sidebar";
-import AboutSidebarSecond from "./header/about-sidebar-second";
 import Image from "next/image";
+import AboutSidebar from "../about-us/about-sidebar";
+import AboutSidebarSecond from "@/components/layout/header/about-sidebar-second";
 
 const ServicesDiagnostics = () => {
   // service-diagnostics

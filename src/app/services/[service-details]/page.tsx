@@ -1,7 +1,12 @@
+import ServicesDiagnostics from "@/components/modules/services/services-diagnostics";
 import React from "react";
 
 const page = () => {
-  return <div>service detail page ho</div>;
+  return (
+    <>
+      <ServicesDiagnostics />
+    </>
+  );
 };
 
 export default page;
