@@ -1,4 +1,3 @@
-import { secureHeapUsed } from "crypto";
 import React from "react";
 import Image from "next/image";
 import AboutSidebar from "../about-us/about-sidebar";
@@ -19,7 +18,7 @@ const ServicesDiagnostics = () => {
             <AboutSidebarSecond />
           </div>
           <div className="lg:col-span-9  space-y-10">
-            <div className="relative border border-green-800 w-[full] h-[334px]">
+            <div className="relative  w-[full] h-[334px]">
               <Image
                 src="/images/service-diagnostics.png"
                 alt="Car Pic"
