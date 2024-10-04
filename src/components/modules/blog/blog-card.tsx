@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BlogCard = () => {
@@ -12,7 +13,7 @@ const BlogCard = () => {
             {/* /////////////////////// */}
             {/* min-h-[746px] */}
             <div className="max-w-[537px]  bg-white border border-gray-200 rounded-none shadow  flex flex-col justify-start items-center ">
-              <a href="#">
+              <Link href="/blog/blog-details">
                 {/*  */}
                 <img
                   className="rounded-none     mt-4 max-2xl:p-4"
@@ -21,7 +22,7 @@ const BlogCard = () => {
                   width={473}
                   height={330}
                 />
-              </a>
+              </Link>
               <div className="p-5  flex flex-col gap-4 2xl:pl-4">
                 <span className="text-b2 text-customColor-grey font-semibold 2xl:pl-4">
                   Posted on October 6th 2021
@@ -36,8 +37,8 @@ const BlogCard = () => {
                   all makes and models of cars, no matter the cause. This
                   includes, We provide a full range of front end mechanical.
                 </p>
-                <a
-                  href="#"
+                <Link
+                  href="/blog/blog-details"
                   className="text-b1 font-semibold inline-flex items-center px-3 py-2 text-sm  text-left rounded-none focus:ring-4 focus:outline-none 2xl:pl-4"
                 >
                   Read more
@@ -56,7 +57,7 @@ const BlogCard = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -65,8 +66,8 @@ const BlogCard = () => {
           <div className=" col-span-7 space-y-10  max-sm:!m-auto max-sm:!mt-4  ">
             {/* /////////// */}
 
-            <a
-              href="#"
+            <Link
+              href="/blog/blog-details"
               className="flex flex-col items-center bg-[#f5f5f5]  md:flex-row md:max-w-xl hover:bg-gray-100"
             >
               <img
@@ -82,9 +83,9 @@ const BlogCard = () => {
                   Posted on October 6th 2021
                 </p>
               </div>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/blog/blog-details"
               className="flex flex-col items-center bg-[#f5f5f5]  md:flex-row md:max-w-xl hover:bg-gray-100"
             >
               <img
@@ -102,9 +103,9 @@ const BlogCard = () => {
                   Posted on October 6th 2021
                 </p>
               </div>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/blog/blog-details"
               className="flex flex-col items-center bg-[#f5f5f5]  md:flex-row md:max-w-xl hover:bg-gray-100"
             >
               <img
@@ -120,7 +121,7 @@ const BlogCard = () => {
                   Posted on October 6th 2021
                 </p>
               </div>
-            </a>
+            </Link>
 
             {/* ////////////////// */}
           </div>
