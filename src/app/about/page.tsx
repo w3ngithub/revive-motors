@@ -1,14 +1,10 @@
-import AboutCard from "@/components/custom-components/about-card";
-import AboutDiagnostics from "@/components/custom-components/about-diagnostics";
-import AboutProcess from "@/components/custom-components/about-process";
-import AboutQuote from "@/components/custom-components/about-quote";
-import AboutQuoteFirst from "@/components/custom-components/about-quote-first";
-import AboutService from "@/components/custom-components/about-service";
-import Banner from "@/components/custom-components/Banner";
-import CustomerSatisfaction from "@/components/custom-components/customer-satisfaction";
-import GetInTouch from "@/components/custom-components/get-in-touch";
-import OurTeam from "@/components/custom-components/our-team";
-import ServiceHero from "@/components/custom-components/service-hero";
+import AboutBanner from "@/components/modules/about-us/about-banner";
+import AboutCard from "@/components/modules/about-us/about-card";
+import AboutQuote from "@/components/modules/about-us/about-quote";
+import Banner from "@/components/modules/common/banner";
+import CustomerSatisfaction from "@/components/modules/home-page/customer-satisfaction";
+import OurTeam from "@/components/modules/our-team/our-team";
+import ServiceHero from "@/components/modules/services/service-hero";
 import React from "react";
 
 const page = () => {
@@ -16,15 +12,12 @@ const page = () => {
     <div>
       <ServiceHero />
       <AboutQuote />
+      <AboutBanner />
       <AboutCard />
       <CustomerSatisfaction />
       <OurTeam />
       <Banner />
     </div>
-    // <div>
-    //   {/* <AboutDiagnostics /> */}
-    //   <AboutProcess />
-    // </div>
   );
 };
 
