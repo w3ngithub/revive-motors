@@ -4,6 +4,7 @@ import { Button } from "../../ui/button";
 import { CheckCircle2 } from "lucide-react";
 
 const AboutProcess = () => {
+  // checkmark
   return (
     <section className="container mx-auto px-4 py-16  ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16  ">
@@ -17,8 +18,14 @@ const AboutProcess = () => {
               "Attended does no end it his mother since real had half every",
               "Since real had half every him case in packages enquire we up ecstatic",
             ].map((item, index) => (
-              <li key={index} className="flex items-start">
-                <CheckCircle2 className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" />
+              <li key={index} className="flex items-start gap-2">
+                <Image
+                  src="/images/checkmark.svg"
+                  alt="logo"
+                  width={48}
+                  height={48}
+                  className="h-6 w-6 mr-2 flex-shrink-0"
+                />
                 <p className="text-t2 font-semibold">{item}</p>
               </li>
             ))}
