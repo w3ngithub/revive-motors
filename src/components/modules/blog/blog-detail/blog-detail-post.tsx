@@ -45,11 +45,22 @@ const BlogDetailPost = () => {
               convallis.
             </p>
           </div>
+          {/* /////////// */}
+          <div className="relative  w-[full] h-[598px]">
+            <Image
+              src="/images/blog-detail-road.png"
+              alt="Car Pic"
+              layout="fill"
+              objectFit="cover"
+              className=""
+              // width={854}
+              // height={334}
+            />
+          </div>
           {/* /// */}
           <div className="flex flex-col gap-7">
             <p className="text-t1 font-bold">
-              Delaying a diagnosis and repair could lead to even bigger problems
-              down the road.
+              This is a small blog post headline
             </p>
             <p className="text-b2 font-semibold text-customColor-grey leading-relaxed ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
