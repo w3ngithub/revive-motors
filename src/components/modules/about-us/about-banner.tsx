@@ -7,7 +7,7 @@ export default function AboutBanner() {
       title: "Serve our customers and always deliver the customer service",
       description:
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
-      bgColor: "bg-orange-500",
+      bgColor: "bg-customColor-primary",
       //   image: "/placeholder.svg?height=300&width=400",
       image: "/images/about-banner-first.png",
     },
@@ -24,7 +24,7 @@ export default function AboutBanner() {
         "We value the service we provide and our loyal returning customers",
       description:
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
-      bgColor: "bg-purple-600",
+      bgColor: "bg-[#7443CA]",
       //   image: "/placeholder.svg?height=300&width=400",
       image: "/images/about-banner-third.png",
     },
