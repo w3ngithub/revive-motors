@@ -17,7 +17,7 @@ export default function AboutBanner() {
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
       bgColor: "bg-black",
       //   image: "/placeholder.svg?height=300&width=400",
-      image: "/images/about-banner-first.png",
+      image: "/images/about-banner-second.png",
     },
     {
       title:
@@ -26,7 +26,7 @@ export default function AboutBanner() {
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
       bgColor: "bg-purple-600",
       //   image: "/placeholder.svg?height=300&width=400",
-      image: "/images/about-banner-first.png",
+      image: "/images/about-banner-third.png",
     },
   ];
 
@@ -43,14 +43,14 @@ export default function AboutBanner() {
               className="z-0"
             />
             <div
-              className={`absolute inset-0 ${banner.bgColor} bg-opacity-70 z-10`}
+              className={`absolute inset-0 ${banner.bgColor} bg-opacity-70 z-10    `}
             />
-            <div className="relative z-20 p-8 h-full flex flex-col justify-center text-white">
-              <h4 className="text-h4 font-bold leading-tight max-2xl:text-h5  max-w-[350px] sm:max-md:text-h6">
+            <div className="relative z-20 p-8 h-full flex flex-col justify-center items-center text-white">
+              <h4 className="text-h4 font-bold leading-tight max-2xl:text-h5     max-w-[470px] sm:max-md:text-h6">
                 {banner.title}
               </h4>
               {/* <h3 className="text-h4 font-bold mb-4">{banner.subtitle}</h3> */}
-              <p className="text-t2 font-semibold text-customColor-steelGrey leading-tight  max-2xl:text-b2 max-2xl:mt-4 max-2xl:leading-2  max-w-[300px]">
+              <p className="text-t2 font-semibold text-customColor-steelGrey leading-tight  max-2xl:text-b2  max-2xl:leading-2     max-w-[470px] mt-4 ">
                 {banner.description}
               </p>
             </div>
