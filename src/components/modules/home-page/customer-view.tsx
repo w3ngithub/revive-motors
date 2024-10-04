@@ -14,6 +14,8 @@ import customerViewData from "../../../json/customer-view.json";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowLeftLong } from "react-icons/fa6";
 
 const CustomerView = () => {
   const { heading, testimonials } = customerViewData;
@@ -86,14 +88,16 @@ const CustomerView = () => {
                 className="w-12 h-12 rounded-full bg-white shadow-md flex items-center justify-center transition-colors duration-200 hover:bg-gray-100"
                 aria-label="Previous slide"
               >
-                <ChevronLeft className="w-6 h-6" />
+                {/* <ChevronLeft className="w-6 h-6" /> */}
+                <FaArrowLeftLong className="w-6 h-6" />
               </button>
               <button
                 onClick={handleNext}
                 className="w-12 h-12 rounded-full bg-black shadow-md flex items-center justify-center transition-colors duration-200 hover:bg-gray-800"
                 aria-label="Next slide"
               >
-                <ChevronRight className="w-6 h-6 text-white" />
+                {/* <ChevronRight className="w-6 h-6 text-white" /> */}
+                <FaArrowRightLong className="w-6 h-6 text-white" />
               </button>
             </div>
 
