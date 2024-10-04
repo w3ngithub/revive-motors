@@ -2,9 +2,10 @@ import Image from "next/image";
 import React from "react";
 
 const BlogDetailPost = () => {
+  //////////////////////
   return (
-    <section className="container mb-11 ">
-      <div className="container">
+    <section className="container  mb-11  border border-red-500">
+      <div className=" max-w-4xl mx-auto   border border-green-500">
         <div className="space-y-10">
           {/* <div className="relative border border-green-800 w-[full] h-[334px]">
             <Image
