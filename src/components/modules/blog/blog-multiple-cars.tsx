@@ -3,7 +3,7 @@ import React from "react";
 
 const BlogMultipleCars = () => {
   return (
-    <section className="container my-10">
+    <section className="container my-10 ">
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8    ">
           {/* h-[606px] */}

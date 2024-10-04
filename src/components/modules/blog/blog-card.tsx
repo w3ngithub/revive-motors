@@ -8,7 +8,7 @@ const BlogCard = () => {
     <section className="bg-[#f5f5f5] min-h-screen max-w-[100vw] flex flex-row justify-center items-center pb-10  ">
       <div className="container  max-2xl:my-10  ">
         {/* max-h-[746px] */}
-        <div className="grid lg:grid-cols-12   space-x-10 space-y-10 ">
+        <div className="grid lg:grid-cols-12   space-x-10 space-y-10  ">
           <div className="col-span-5  ">
             {/* /////////////////////// */}
             {/* min-h-[746px] */}
@@ -63,7 +63,7 @@ const BlogCard = () => {
 
             {/* ///////////////////// */}
           </div>
-          <div className=" col-span-7 space-y-10  max-sm:!m-auto max-sm:!mt-4  ">
+          <div className=" col-span-7 space-y-10  max-sm:!m-auto max-sm:!mt-4  2xl:space-y-0  ">
             {/* /////////// */}
 
             <Link
