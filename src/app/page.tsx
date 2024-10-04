@@ -16,7 +16,6 @@ export default function Home() {
         <ServiceForm />
         <Appointment />
         <Maintenance />
-        {/* <GetInTouch /> */}
         <Banner />
         <CustomerSatisfaction />
         <Brands />
