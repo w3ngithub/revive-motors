@@ -6,7 +6,7 @@ const AboutQuoteFirst = () => {
   // max-2xl:mr-[150px]
 
   return (
-    <div className="container border border-purple-700 max-2xl:mr-[150px] ">
+    <div className="container  max-2xl:mr-[150px] ">
       <div>
         <h3 className="text-h3 font-bold text-customColor-black  max-w-[614px]    leading-tight">
           We Provide Expert Service and aim to have a long term with you
@@ -17,8 +17,7 @@ const AboutQuoteFirst = () => {
         </p>
       </div>
       <div>
-        {/* ///////////////////////////// */}
-        {/* /////////////////////////////// */}
+  
         <div className="flex flex-col justify-center items-start mt-9">
           <div className="space-y-6 relative">
             {rightContent.steps.map((step, index) => (
