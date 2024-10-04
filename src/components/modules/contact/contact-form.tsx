@@ -5,8 +5,8 @@ import React from "react";
 const ContactForm = () => {
   return (
     <>
-      <section className="flex flex-row items-center justify-center min-h-[100vh] w-full overflow-hidden bg-customColor-white 2xl:min-h-[80vh]">
-        <div className="container grid grid-cols-1 lg:grid-cols-2 w-[1244px] h-auto lg:h-[628px] gap-11 2xl:gap-[7rem]   ">
+      <section className="flex flex-row items-center justify-center min-h-[100vh] w-full overflow-hidden bg-customColor-white 2xl:min-h-[80vh]    ">
+        <div className="container grid grid-cols-1 lg:grid-cols-2 w-[1244px] h-auto lg:h-[628px] gap-11 2xl:gap-[7rem]        2xl:w-full">
           <div className="   ">
             {" "}
             <div className="">
