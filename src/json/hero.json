@@ -1,17 +1,16 @@
 {
-    "heading": "Get your vehicle service done online at one place",
-    "button": {
-      "text": "Book a service"
-    },
-    "openHours": {
-      "iconSrc": "/images/clock-icon.svg",
-      "altText": "Clock Icon",
-      "caption": "We are open",
-      "schedule": "Monday to Friday 9:00 AM to 10:00 AM"
-    },
-    "heroImage": {
-      "src": "/images/final.png",
-      "altText": "Hero icon"
-    }
+  "heading": "Get your vehicle service done online at one place",
+  "button": {
+    "text": "Book a service"
+  },
+  "openHours": {
+    "iconSrc": "revive-motors/images/clock-icon.svg",
+    "altText": "Clock Icon",
+    "caption": "We are open",
+    "schedule": "Monday to Friday 9:00 AM to 10:00 AM"
+  },
+  "heroImage": {
+    "src": "/images/final.png",
+    "altText": "Hero icon"
   }
-  
+}

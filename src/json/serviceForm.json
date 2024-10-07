@@ -1,49 +1,48 @@
 {
-    "heading": "We are taking car servicing seriously",
-    "services": [
+  "heading": "We are taking car servicing seriously",
+  "services": [
+    {
+      "iconSrc": "revive-motors/images/tool-logo.svg",
+      "altText": "Tool Icon",
+      "title": "Convenient service",
+      "description": "Through True Rich Attended does no end it his mother since real had half every him."
+    },
+    {
+      "iconSrc": "revive-motors/images/man-logo.svg",
+      "altText": "Man Icon",
+      "title": "Expert mechanics",
+      "description": "Through True Rich Attended does no end it his mother since real had half every him."
+    },
+    {
+      "iconSrc": "revive-motors/images/dollar-logo.svg",
+      "altText": "Dollar Icon",
+      "title": "Transparent pricing",
+      "description": "Through True Rich Attended does no end it his mother since real had half every him."
+    }
+  ],
+  "knowMore": {
+    "text": "Know more about us",
+    "arrowIconSrc": "images/right-arrow.svg",
+    "altText": "Right arrow"
+  },
+  "form": {
+    "heading": "Get a quote for the car service",
+    "inputs": [
       {
-        "iconSrc": "/images/tool-logo.svg",
-        "altText": "Tool Icon",
-        "title": "Convenient service",
-        "description": "Through True Rich Attended does no end it his mother since real had half every him."
+        "placeholder": "Enter your location"
       },
       {
-        "iconSrc": "/images/man-logo.svg",
-        "altText": "Man Icon",
-        "title": "Expert mechanics",
-        "description": "Through True Rich Attended does no end it his mother since real had half every him."
+        "placeholder": "Enter your location"
       },
       {
-        "iconSrc": "/images/dollar-logo.svg",
-        "altText": "Dollar Icon",
-        "title": "Transparent pricing",
-        "description": "Through True Rich Attended does no end it his mother since real had half every him."
+        "placeholder": "Enter your location"
+      },
+      {
+        "placeholder": "Your phone number"
       }
     ],
-    "knowMore": {
-      "text": "Know more about us",
-      "arrowIconSrc": "/images/right-arrow.svg",
-      "altText": "Right arrow"
-    },
-    "form": {
-      "heading": "Get a quote for the car service",
-      "inputs": [
-        {
-          "placeholder": "Enter your location"
-        },
-        {
-          "placeholder": "Enter your location"
-        },
-        {
-          "placeholder": "Enter your location"
-        },
-        {
-          "placeholder": "Your phone number"
-        }
-      ],
-      "button": {
-        "text": "Get your quote"
-      }
+    "button": {
+      "text": "Get your quote"
     }
   }
-  
+}
