@@ -19,7 +19,7 @@ const BlogDetailHome = () => {
       </article>
       <div>
         <Image
-          src="/images/blog-car-cover.png"
+          src="/revive-motors/images/blog-car-cover.png"
           // src="/placeholder.svg?height=628&width=1280"
           alt="White sports car driving on a winding road"
           width={1280}

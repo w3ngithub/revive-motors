@@ -5,13 +5,13 @@ import Link from "next/link";
 const serviceItems = [
   {
     title: "Auto Diagnostics",
-    icon: "/images/car-doctor.svg",
+    icon: "images/car-doctor.svg",
   },
-  { title: "Body Work", icon: "/images/car-doctor.svg" },
-  { title: "Batteries", icon: "/images/car-doctor.svg" },
-  { title: "Car wash", icon: "/images/car-doctor.svg" },
-  { title: "AC Repair", icon: "/images/car-doctor.svg" },
-  { title: "Engine Repair", icon: "/images/car-doctor.svg" },
+  { title: "Body Work", icon: "images/car-doctor.svg" },
+  { title: "Batteries", icon: "images/car-doctor.svg" },
+  { title: "Car wash", icon: "images/car-doctor.svg" },
+  { title: "AC Repair", icon: "images/car-doctor.svg" },
+  { title: "Engine Repair", icon: "images/car-doctor.svg" },
 ];
 
 export default function AboutDiagnostics() {

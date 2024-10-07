@@ -7,7 +7,7 @@ const ContactMap = () => {
       <div className="relative max-w-[100vw] min-h-[80vh] max-lg:min-h-[50vh]">
         {/* second image */}
         <img
-          src="/images/blog-map-cover.png"
+          src="images/blog-map-cover.png"
           className="absolute bottom-0 w-full h-auto"
           alt="Second Image"
           width={1920}
@@ -17,7 +17,7 @@ const ContactMap = () => {
         <div className="">
           {/* first image */}
           <img
-            src="/images/map.png"
+            src="images/map.png"
             className="absolute container top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             alt="First Image"
             width={1280}

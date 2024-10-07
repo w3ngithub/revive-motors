@@ -17,7 +17,7 @@ const BlogCard = () => {
                 {/*  */}
                 <img
                   className="rounded-none     mt-4 max-2xl:p-4"
-                  src="/images/blog-car-card.png"
+                  src="images/blog-car-card.png"
                   alt="Auto Diagnostics"
                   width={473}
                   height={330}
@@ -72,7 +72,7 @@ const BlogCard = () => {
             >
               <img
                 className="object-cover w-full h-96 md:h-auto md:w-48 rounded-none "
-                src="/images/blog-car-back.png"
+                src="images/blog-car-back.png"
                 alt="Car back"
               />
               <div className="flex flex-col justify-between p-4 leading-normal">
@@ -90,7 +90,7 @@ const BlogCard = () => {
             >
               <img
                 className="object-cover w-full h-96 md:h-auto md:w-48 rounded-none "
-                src="/images/blog-car-back.png"
+                src="images/blog-car-back.png"
                 alt="Car back"
                 // width={192}
                 // height={192}
@@ -110,7 +110,7 @@ const BlogCard = () => {
             >
               <img
                 className="object-cover w-full h-96 md:h-auto md:w-48 rounded-none "
-                src="/images/blog-car-back.png"
+                src="images/blog-car-back.png"
                 alt="Car back"
               />
               <div className="flex flex-col justify-between p-4 leading-normal">
