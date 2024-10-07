@@ -11,17 +11,15 @@ import ServiceForm from "@/components/modules/home-page/service-form";
 export default function Home() {
   return (
     <>
-      <div>
-        <Hero />
-        <ServiceForm />
-        <Appointment />
-        <Maintenance />
-        <Banner />
-        <CustomerSatisfaction />
-        <Brands />
-        <CustomerView />
-        <FrequentQuestion />
-      </div>
+      <Hero />
+      <ServiceForm />
+      <Appointment />
+      <Maintenance />
+      <Banner />
+      <CustomerSatisfaction />
+      <Brands />
+      <CustomerView />
+      <FrequentQuestion />
     </>
   );
 }

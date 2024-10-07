@@ -1,8 +1,8 @@
 "use client";
+import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { useState } from "react";
 import headerData from "../../../json/header.json";
 
 const Header = () => {
@@ -11,17 +11,15 @@ const Header = () => {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
-  // px-4 py-4
-
   return (
-    <nav className="container mx-auto  ">
-      <div className="flex flex-wrap justify-between items-center">
-        <h1 className="text-customColor-primary text-h1 tracking-tighter font-bold">
+    <nav className="container mx-auto">
+      <div className="flex flex-wrap items-center justify-between">
+        <h1 className="text-h1 font-bold tracking-tighter text-customColor-primary">
           {title}
         </h1>
         <button
           onClick={toggleMenu}
-          className="lg:hidden p-2 text-customColor-primary"
+          className="p-2 text-customColor-primary lg:hidden"
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -29,27 +27,29 @@ const Header = () => {
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } w-full lg:flex lg:w-auto lg:items-center mt-4 lg:mt-0`}
+          } mt-4 w-full lg:mt-0 lg:flex lg:w-auto lg:items-center`}
         >
-          <ul className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-8">
+          <ul className="flex flex-col items-center justify-center gap-4 lg:flex-row lg:gap-8">
             {navItems.map((item) => (
               <li key={item.href} className="w-full lg:w-auto">
                 <Link
                   href={item.href}
-                  className="block p-2 text-b2 hover:text-customColor-primary transition-colors duration-200"
+                  className="block p-2 text-b2 transition-colors duration-200 hover:text-customColor-primary"
                 >
                   {item.name}
                 </Link>
               </li>
             ))}
           </ul>
-          <div className="hidden lg:block text-customColor-grey text-4xl font-thin mx-4">
+          <div className="mx-4 hidden text-4xl font-thin text-customColor-grey lg:block">
             {divider}
           </div>
-          <div className="flex flex-row justify-center items-center gap-4 mt-4 lg:mt-0">
+          <div className="mt-4 flex flex-row items-center justify-center gap-4 lg:mt-0">
             <div>
               <Image
-                src={contactInfo.iconSrc}
+                src={`${
+                  process.env.NEXT_PUBLIC_BASE_PATH + contactInfo.iconSrc
+                }`}
                 width={40}
                 height={40}
                 className="h-[40px] w-[40px]"
