@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/revive-motors",
+  basePath: "",
   assetPrefix: "/revive-motors",
   eslint: {
     ignoreDuringBuilds: true,
