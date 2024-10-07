@@ -9,7 +9,7 @@ const BlogHome = () => {
         <div className=" relative sm:col-span-5 h-[300px] sm:h-auto">
           {" "}
           <Image
-            src="/images/blog-hero.png"
+            src="/revive-motors/images/blog-hero.png"
             alt="Car Pic"
             layout="fill"
             objectFit="cover"

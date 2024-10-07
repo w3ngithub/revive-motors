@@ -49,7 +49,7 @@ const BlogDetailPost = () => {
           {/* /////////// */}
           <div className="relative  w-[full] h-[598px]">
             <Image
-              src="/images/blog-detail-road.png"
+              src="/revive-motors/images/blog-detail-road.png"
               alt="Car Pic"
               layout="fill"
               objectFit="cover"
