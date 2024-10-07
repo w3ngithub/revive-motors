@@ -10,6 +10,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  console.log(process.env.NODE_ENV);
 
   return (
     <nav className="container mx-auto">
