@@ -19,24 +19,36 @@ AccordionItem.displayName = "AccordionItem";
 const AccordionTrigger = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Trigger>,
   React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Trigger>
->(({ className, children, ...props }, ref) => (
-  <AccordionPrimitive.Header className="flex">
-    <AccordionPrimitive.Trigger
-      ref={ref}
-      className={cn(
-        "flex flex-1 items-center justify-between py-4 font-medium transition-all ",
-        className
-      )}
-      {...props}
-    >
-      {children}
-      {/* <ChevronDown className="h-4 w-4 shrink-0 transition-transform duration-200" /> */}
-      <div className="h-6 w-6 shrink-0 transition-transform duration-200 bg-customColor-primary flex justify-center items-center p-2 text-customColor-white font-thin  ">
-        {/* {props['data-state'] === 'open' ? '-' : '+'} */}+
-      </div>
-    </AccordionPrimitive.Trigger>
-  </AccordionPrimitive.Header>
-));
+>(({ className, children, ...props }, ref) => {
+  // Move the useState inside the function body
+  const [show, setShow] = React.useState(false);
+
+  return (
+    <AccordionPrimitive.Header className="flex">
+      <AccordionPrimitive.Trigger
+        ref={ref}
+        className={cn(
+          "flex flex-1 items-center justify-between py-4 font-medium transition-all ",
+          className
+        )}
+        {...props}
+        onClick={() => setShow((prev) => !prev)}
+      >
+        {children}
+        {/* <ChevronDown className="h-4 w-4 shrink-0 transition-transform duration-200" /> */}
+        {!show ? (
+          <div className="h-6 w-6 shrink-0 transition-transform duration-200 bg-customColor-primary flex justify-center items-center p-2 text-customColor-white font-thin">
+            +
+          </div>
+        ) : (
+          <div className="h-6 w-6 shrink-0 transition-transform duration-200 bg-customColor-primary flex justify-center items-center p-2 text-customColor-white font-thin">
+            -
+          </div>
+        )}
+      </AccordionPrimitive.Trigger>
+    </AccordionPrimitive.Header>
+  );
+});
 AccordionTrigger.displayName = AccordionPrimitive.Trigger.displayName;
 
 const AccordionContent = React.forwardRef<
