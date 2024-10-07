@@ -2,19 +2,19 @@
   "heading": "We are taking car servicing seriously",
   "services": [
     {
-      "iconSrc": "/revive-motors/images/tool-logo.svg",
+      "iconSrc": "/images/tool-logo.svg",
       "altText": "Tool Icon",
       "title": "Convenient service",
       "description": "Through True Rich Attended does no end it his mother since real had half every him."
     },
     {
-      "iconSrc": "/revive-motors/images/man-logo.svg",
+      "iconSrc": "/images/man-logo.svg",
       "altText": "Man Icon",
       "title": "Expert mechanics",
       "description": "Through True Rich Attended does no end it his mother since real had half every him."
     },
     {
-      "iconSrc": "/revive-motors/images/dollar-logo.svg",
+      "iconSrc": "/images/dollar-logo.svg",
       "altText": "Dollar Icon",
       "title": "Transparent pricing",
       "description": "Through True Rich Attended does no end it his mother since real had half every him."
@@ -22,7 +22,7 @@
   ],
   "knowMore": {
     "text": "Know more about us",
-    "arrowIconSrc": "/revive-motors/images/right-arrow.svg",
+    "arrowIconSrc": "/images/right-arrow.svg",
     "altText": "Right arrow"
   },
   "form": {

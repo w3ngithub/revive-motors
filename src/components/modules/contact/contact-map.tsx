@@ -1,24 +1,23 @@
 import Image from "next/image";
-import React from "react";
 
 const ContactMap = () => {
   return (
-    <section className="">
-      <div className="relative max-w-[100vw] min-h-[80vh] max-lg:min-h-[50vh]">
+    <section>
+      <div className="relative min-h-[80vh] max-w-[100vw] max-lg:min-h-[50vh]">
         {/* second image */}
-        <img
-          src="images/blog-map-cover.png"
-          className="absolute bottom-0 w-full h-auto"
+        <Image
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/blog-map-cover.png`}
+          className="absolute bottom-0 h-auto w-full"
           alt="Second Image"
           width={1920}
           height={442}
         />
 
-        <div className="">
+        <div>
           {/* first image */}
-          <img
-            src="images/map.png"
-            className="absolute container top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+          <Image
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/map.png`}
+            className="container absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform"
             alt="First Image"
             width={1280}
             height={512}
@@ -30,41 +29,3 @@ const ContactMap = () => {
 };
 
 export default ContactMap;
-
-{
-  /* <Image
-src="/images/map.png"
-alt="Map"
-//   layout="fill"
-//   objectFit="cover"
-//   className="w-full h-full"
-className="absolute inset-0 w-[50%] h-[50%]"
-width={1280}
-height={512}
-/> */
-}
-
-{
-  /* <Image
-src="/images/blog-map-cover.png"
-alt="Map"
-//   layout="fill"
-//   objectFit="cover"
-className="absolute inset-0 w-full h-full"
-width={1280}
-height={512}
-/> */
-}
-
-{
-  /* <section className="min-h-[100vh] w-full ">
-      <div className="border border-red-500 ">
-        <div className="border border-red-500 h-[512px] ">
-          <div className="relative block  min-h-[512px] border-2 border-green-500"></div>
-        </div>
-        <div className=" relative border border-red-500 ">
-          <div className="w-[1280] h-[512px]"></div>
-        </div>
-      </div>
-    </section> */
-}

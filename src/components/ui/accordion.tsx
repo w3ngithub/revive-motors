@@ -1,8 +1,7 @@
 "use client";
 
-import * as React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
-import { ChevronDown } from "lucide-react";
+import * as React from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -28,8 +27,8 @@ const AccordionTrigger = React.forwardRef<
       <AccordionPrimitive.Trigger
         ref={ref}
         className={cn(
-          "flex flex-1 items-center justify-between py-4 font-medium transition-all ",
-          className
+          "flex flex-1 items-center justify-between py-4 font-medium transition-all",
+          className,
         )}
         {...props}
         onClick={() => setShow((prev) => !prev)}
@@ -37,11 +36,11 @@ const AccordionTrigger = React.forwardRef<
         {children}
         {/* <ChevronDown className="h-4 w-4 shrink-0 transition-transform duration-200" /> */}
         {!show ? (
-          <div className="h-6 w-6 shrink-0 transition-transform duration-200 bg-customColor-primary flex justify-center items-center p-2 text-customColor-white font-thin">
+          <div className="flex h-6 w-6 shrink-0 items-center justify-center bg-customColor-primary p-2 font-thin text-customColor-white transition-transform duration-200">
             +
           </div>
         ) : (
-          <div className="h-6 w-6 shrink-0 transition-transform duration-200 bg-customColor-primary flex justify-center items-center p-2 text-customColor-white font-thin">
+          <div className="flex h-6 w-6 shrink-0 items-center justify-center bg-customColor-primary p-2 font-thin text-customColor-white transition-transform duration-200">
             -
           </div>
         )}
@@ -66,4 +65,4 @@ const AccordionContent = React.forwardRef<
 
 AccordionContent.displayName = AccordionPrimitive.Content.displayName;
 
-export { Accordion, AccordionItem, AccordionTrigger, AccordionContent };
+export { Accordion, AccordionContent, AccordionItem, AccordionTrigger };

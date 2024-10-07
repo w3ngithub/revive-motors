@@ -3,7 +3,7 @@
   "navItems": [
     {
       "name": "Home",
-      "href": "/revive-motors"
+      "href": "/"
     },
     {
       "name": "About us",
@@ -24,7 +24,7 @@
   ],
   "divider": "|",
   "contactInfo": {
-    "iconSrc": "images/phone.svg",
+    "iconSrc": "/images/phone.svg",
     "altText": "Phone Icon",
     "phoneDetails": {
       "caption": "Road Assistance",

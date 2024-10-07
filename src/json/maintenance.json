@@ -4,35 +4,35 @@
   "cards": [
     {
       "title": "Diagnostics",
-      "image": "revive-motors/images/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Engine Repair",
-      "image": "revive-motors/images/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Wheel Repair",
-      "image": "revive-motors/images/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Oil Filter",
-      "image": "revive-motors/images/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Body Work",
-      "image": "revive-motors/images/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Batteries",
-      "image": "revive-motors/images/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Insurance Claim",
-      "image": "revive-motors/images/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     },
     {
       "title": "Custom Service",
-      "image": "revive-motors/images/car-doctor.svg"
+      "image": "/images/car-doctor.svg"
     }
   ]
 }

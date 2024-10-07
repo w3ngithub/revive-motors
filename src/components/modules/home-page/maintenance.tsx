@@ -8,22 +8,22 @@ const Maintenance = () => {
 
   return (
     <div className="bg-customColor-lightGrey">
-      <section className="container flex flex-row justify-center min-h-[100vh] max-w-[100vw] bg-customColor-lightGrey ">
-        <div className="   flex flex-col justify-center items-center gap-8 my-10">
-          <p className="text-t2 font-bold text-center p-1">{smallHeading}</p>
-          <h2 className="text-h2 font-extrabold max-w-[858px] leading-tight text-center">
+      <section className="container flex min-h-[100vh] max-w-[100vw] flex-row justify-center bg-customColor-lightGrey">
+        <div className="my-10 flex flex-col items-center justify-center gap-8">
+          <p className="p-1 text-center text-t2 font-bold">{smallHeading}</p>
+          <h2 className="max-w-[858px] text-center text-h2 font-extrabold leading-tight">
             {largeHeading}
           </h2>
-          <div className="flex flex-row justify-center items-center flex-wrap gap-2 w-[80%] max-2xl:w-[100%]">
+          <div className="flex w-[80%] flex-row flex-wrap items-center justify-center gap-2 max-2xl:w-[100%]">
             {cards.map((card, index) => (
               <Card
                 key={index}
-                className="group flex flex-col justify-center items-center w-[316px] h-[232px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer"
+                className="group flex h-[232px] w-[316px] flex-col items-center justify-center rounded-sm hover:cursor-pointer hover:bg-customColor-primary"
               >
                 <CardHeader>
-                  <CardTitle className="flex justify-center items-center">
+                  <CardTitle className="flex items-center justify-center">
                     <Image
-                      src={card.image}
+                      src={`${process.env.NEXT_PUBLIC_BASE_PATH + card.image}`}
                       width={44}
                       height={49}
                       className="group-hover:brightness-0 group-hover:invert"
@@ -43,7 +43,7 @@ const Maintenance = () => {
                 <p className="text-b1 font-semibold">Know more about us</p>
                 <span className="">
                   <Image
-                    src="/images/right-arrow.svg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/right-arrow.svg`}
                     width={52}
                     height={0}
                     alt="Right arrow"
