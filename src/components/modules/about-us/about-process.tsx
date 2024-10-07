@@ -20,7 +20,7 @@ const AboutProcess = () => {
             ].map((item, index) => (
               <li key={index} className="flex items-start gap-2">
                 <Image
-                  src="/images/checkmark.svg"
+                  src="images/checkmark.svg"
                   alt="logo"
                   width={48}
                   height={48}
