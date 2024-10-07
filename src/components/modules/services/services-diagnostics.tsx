@@ -1,32 +1,28 @@
-import React from "react";
+import AboutSidebarSecond from "@/components/layout/header/about-sidebar-second";
 import Image from "next/image";
 import AboutSidebar from "../about-us/about-sidebar";
-import AboutSidebarSecond from "@/components/layout/header/about-sidebar-second";
 
 const ServicesDiagnostics = () => {
-  // service-diagnostics
   return (
-    <section className="container mb-11 ">
+    <section className="container mb-11">
       <div>
-        <h1 className="text-h1 text-customColor-black font-bold my-11 ">
+        <h1 className="my-11 text-h1 font-bold text-customColor-black">
           Auto Diagnostics
         </h1>
 
-        <div className="grid lg:grid-cols-12  gap-11">
-          <div className="lg:col-span-3 ">
+        <div className="grid gap-11 lg:grid-cols-12">
+          <div className="lg:col-span-3">
             <AboutSidebar />
             <AboutSidebarSecond />
           </div>
-          <div className="lg:col-span-9  space-y-10">
-            <div className="relative  w-[full] h-[334px]">
+          <div className="space-y-10 lg:col-span-9">
+            <div className="relative h-[334px] w-[full]">
               <Image
-                src="/images/service-diagnostics.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/service-diagnostics.png`}
                 alt="Car Pic"
-                layout="fill"
                 objectFit="cover"
-                className=""
-                // width={854}
-                // height={334}
+                width={854}
+                height={334}
               />
             </div>
             <div className="flex flex-col gap-7">
@@ -34,7 +30,7 @@ const ServicesDiagnostics = () => {
                 The warning lights on your dashboard are the most obvious
                 starting point.
               </h4>
-              <p className="text-b2 font-semibold text-customColor-grey leading-relaxed ">
+              <p className="text-b2 font-semibold leading-relaxed text-customColor-grey">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 dignissim dolor et dui bibendum aliquam. Mauris a quam sit amet
                 dui auctor dictum eget a elit. Pellentesque varius diam risus,
@@ -45,25 +41,7 @@ const ServicesDiagnostics = () => {
                 tincidunt placerat. Etiam ornare nibh vel dui egestas, eu
                 posuere metus convallis.
               </p>
-              <p className="text-b2 font-semibold text-customColor-grey leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                dignissim dolor et dui bibendum aliquam. Mauris a quam sit amet
-                dui auctor dictum eget a elit. Pellentesque varius diam risus,
-                ut condimentum lorem volutpat vel. Nam vel orci pharetra eros
-                pulvinar cursus nec quis tellus. Quisque feugiat tortor lectus,
-                pretium interdum justo tincidunt a. Donec at congue lectus.
-                Nulla facilisi. Phasellus consectetur sapien accumsan lectus
-                tincidunt placerat. Etiam ornare nibh vel dui egestas, eu
-                posuere metus convallis.
-              </p>
-            </div>
-            {/* /// */}
-            <div className="flex flex-col gap-7">
-              <p className="text-t1 font-bold">
-                Delaying a diagnosis and repair could lead to even bigger
-                problems down the road.
-              </p>
-              <p className="text-b2 font-semibold text-customColor-grey leading-relaxed ">
+              <p className="text-b2 font-semibold leading-relaxed text-customColor-grey">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 dignissim dolor et dui bibendum aliquam. Mauris a quam sit amet
                 dui auctor dictum eget a elit. Pellentesque varius diam risus,
@@ -76,9 +54,26 @@ const ServicesDiagnostics = () => {
               </p>
             </div>
 
-            {/* //// */}
-            <div className="flex flex-row gap-6 justify-center min-h-[112px] ">
-              <p className="text-b1 font-bold text-customColor-grey leading-relaxed border-l-4 border-customColor-black pl-4 ">
+            <div className="flex flex-col gap-7">
+              <p className="text-t1 font-bold">
+                Delaying a diagnosis and repair could lead to even bigger
+                problems down the road.
+              </p>
+              <p className="text-b2 font-semibold leading-relaxed text-customColor-grey">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                dignissim dolor et dui bibendum aliquam. Mauris a quam sit amet
+                dui auctor dictum eget a elit. Pellentesque varius diam risus,
+                ut condimentum lorem volutpat vel. Nam vel orci pharetra eros
+                pulvinar cursus nec quis tellus. Quisque feugiat tortor lectus,
+                pretium interdum justo tincidunt a. Donec at congue lectus.
+                Nulla facilisi. Phasellus consectetur sapien accumsan lectus
+                tincidunt placerat. Etiam ornare nibh vel dui egestas, eu
+                posuere metus convallis.
+              </p>
+            </div>
+
+            <div className="flex min-h-[112px] flex-row justify-center gap-6">
+              <p className="border-l-4 border-customColor-black pl-4 text-b1 font-bold leading-relaxed text-customColor-grey">
                 Ut non urna a odio condimentum dictum. Proin egestas erat a orci
                 ultrices, vitae bibendum libero posuere. Quisque laoreet
                 tincidunt justo. Vestibulum congue dictum libero finibus

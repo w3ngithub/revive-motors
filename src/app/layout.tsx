@@ -1,22 +1,11 @@
+import Footer from "@/components/layout/footer/footer";
+import Header from "@/components/layout/header/header";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/layout/header/header";
-import Footer from "@/components/layout/footer/footer";
-
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
 
 const manrope = localFont({
-  src: "./fonts/Manrope-VariableFont_wght.ttf",
+  src: "../../public/fonts/Manrope-VariableFont_wght.ttf",
   variable: "--font-manrope",
   weight: "100 900",
 });
@@ -35,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className={`${manrope.className}  min-h-screen flex flex-col`}
+        className={`${manrope.className} flex min-h-screen flex-col`}
       >
         <Header />
         <main className="flex-1">{children}</main>

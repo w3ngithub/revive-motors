@@ -1,29 +1,26 @@
-import React from "react";
-import { Button } from "../../ui/button";
 import Image from "next/image";
 import heroData from "../../../json/hero.json";
-import { Heading } from "lucide-react";
+import { Button } from "../../ui/button";
 
 const Hero = () => {
   const { heading, button, openHours, heroImage } = heroData;
 
   return (
-    <section className="max-sm:mt-7 ">
-      <div className="container grid sm:grid-cols-2 ">
-        <div className="flex flex-col justify-center items-start  gap-11 max-sm:gap-5">
-          <h1 className="text-h1 font-extrabold max-w-[624px] leading-tight">
+    <section className="max-sm:mt-7">
+      <div className="container grid sm:grid-cols-2">
+        <div className="flex flex-col items-start justify-center gap-11 max-sm:gap-5">
+          <h1 className="max-w-[624px] text-h1 font-extrabold leading-tight">
             {heading}
           </h1>
-          <Button className="bg-customColor-primary text-b1 text-customColor-white max-w-[203px] max-h-[64px] p-7 px-9 rounded-xl max-sm:p-2 max-sm:px-2 max-sm:text-caption ">
+          <Button className="max-h-[64px] max-w-[203px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white max-sm:p-2 max-sm:px-2 max-sm:text-caption">
             {button.text}
           </Button>
-          <div className="flex flex-row justify-center align-center gap-4 hover:cursor-pointer">
+          <div className="align-center flex flex-row justify-center gap-4 hover:cursor-pointer">
             <div className="">
               <Image
-                src={openHours.iconSrc}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH + openHours.iconSrc}`}
                 width={40}
                 height={40}
-                // className="h-[30.94px] w-[30.94px]"
                 alt={openHours.altText}
               />
             </div>
@@ -35,10 +32,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end ">
-         
+        <div className="flex justify-end">
           <Image
-            src={heroImage.src}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH + heroImage.src}`}
             alt={heroImage.altText}
             width={605}
             height={632}

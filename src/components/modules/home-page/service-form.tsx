@@ -1,29 +1,29 @@
-import Image from "next/image";
-import React from "react";
-import { FaArrowRightLong } from "react-icons/fa6";
 import { Input } from "@/components/ui/input";
-import { Button } from "../../ui/button";
+import Image from "next/image";
 import serviceFormData from "../../../json/serviceForm.json";
+import { Button } from "../../ui/button";
 
 const ServiceForm = () => {
-  const { heading, services, knowMore, form } = serviceFormData;
-  // min-w-[100vw]
+  const { heading, services, knowMore } = serviceFormData;
+
   return (
-    <section className=" flex flex-row items-center justify-center overflow-hidden  min-h-[100vh] w-full     bg-customColor-steelGrey my-10">
-      <div className="container flex flex-row items-start justify-center     pt-3 gap-6 max-lg:flex-col my-10">
-        <div className="flex flex-col items-start gap-[53px]    ">
-          <h2 className="text-h2 font-extrabold max-w-[624px] leading-tight">
+    <section className="my-10 flex min-h-[100vh] w-full flex-row items-center justify-center overflow-hidden bg-customColor-steelGrey">
+      <div className="container my-10 flex flex-row items-start justify-center gap-6 pt-3 max-lg:flex-col">
+        <div className="flex flex-col items-start gap-[53px]">
+          <h2 className="max-w-[624px] text-h2 font-extrabold leading-tight">
             {heading}
           </h2>
           {services.map((service, index) => {
             return (
-              <div className="flex flex-row justify-center align-center gap-4 hover:cursor-pointer">
+              <div
+                key={index}
+                className="align-center flex flex-row justify-center gap-4 hover:cursor-pointer"
+              >
                 <div className="">
                   <Image
-                    src={service.iconSrc}
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH + service.iconSrc}`}
                     width={47}
                     height={47}
-                    // className="h-[30.94px] w-[30.94px]"
                     alt={service.altText}
                   />
                 </div>
@@ -37,14 +37,13 @@ const ServiceForm = () => {
             );
           })}
 
-          <div className="flex flex-row items-center gap-6 ml-11 pl-2 hover:cursor-pointer">
+          <div className="ml-11 flex flex-row items-center gap-6 pl-2 hover:cursor-pointer">
             <p className="text-b1 font-semibold">{knowMore.text} </p>
             <span>
               <Image
-                src={knowMore.arrowIconSrc}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH + knowMore.arrowIconSrc}`}
                 width={52}
                 height={0}
-                // className="h-[30.94px] w-[30.94px]"
                 alt={knowMore.altText}
               />
             </span>
@@ -57,22 +56,22 @@ const ServiceForm = () => {
             </h3>
             <form className="flex flex-col flex-wrap gap-1">
               <Input
-                className="h-[72px] w-full sm:w-[480px] md:w-[540px] lg:w-[624px] rounded-sm"
+                className="h-[72px] w-full rounded-sm sm:w-[480px] md:w-[540px] lg:w-[624px]"
                 placeholder="Enter your location"
               />
               <Input
                 className="h-[72px] w-full sm:w-[480px] md:w-[540px] lg:w-[624px]"
                 placeholder="Enter your location"
-              />{" "}
+              />
               <Input
                 className="h-[72px] w-full sm:w-[480px] md:w-[540px] lg:w-[624px]"
                 placeholder="Enter your location"
-              />{" "}
+              />
               <Input
                 className="h-[72px] w-full sm:w-[480px] md:w-[540px] lg:w-[624px]"
                 placeholder="Your phone number"
               />
-              <Button className="bg-customColor-primary text-b1 text-customColor-white max-w-[203px] max-h-[64px] p-7 px-9 rounded-xl mt-5">
+              <Button className="mt-5 max-h-[64px] max-w-[203px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white">
                 Get your quote
               </Button>
             </form>

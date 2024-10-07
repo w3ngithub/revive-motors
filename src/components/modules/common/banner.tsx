@@ -1,37 +1,34 @@
 import Image from "next/image";
-import React from "react";
 import Middle from "./middle";
 
 const Banner = () => {
-  // min-h-[100vh]
-  // max-lg
   return (
-    <section className=" max-w-[100vw] ">
-      <div className="grid grid-cols-12  w-full max-h-[502px] max-lg:grid-cols-2">
+    <section className="max-w-[100vw]">
+      <div className="grid max-h-[502px] w-full grid-cols-12 max-lg:grid-cols-2">
         {/* Left Image */}
-        <div className="block col-span-2 relative max-lg:hidden">
+        <div className="relative col-span-2 block max-lg:hidden">
           <Image
-            src="/images/large-carss.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/large-carss.png`}
             alt="Car Pic"
-            layout="fill"
-            objectFit="cover"
-            className="absolute inset-0 w-full h-full"
+            className="absolute inset-0 h-full w-full object-cover"
+            width={500}
+            height={100}
           />
         </div>
 
         {/* Middle Component */}
-        <div className="block m-0 p-0  justify-center items-center col-span-5  max-lg:col-span-1 ">
+        <div className="col-span-5 m-0 block items-center justify-center p-0 max-lg:col-span-1">
           <Middle />
         </div>
 
         {/* Right Image */}
-        <div className="col-span-5 relative  max-lg:col-span-1">
+        <div className="relative col-span-5 max-lg:col-span-1">
           <Image
-            src="/images/clips.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/clips.png`}
             alt="Car Pic"
-            layout="fill"
-            objectFit="cover"
-            className="absolute inset-0 w-full h-full"
+            className="absolute inset-0 h-full w-full object-cover"
+            width={500}
+            height={100}
           />
         </div>
       </div>

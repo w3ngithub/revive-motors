@@ -1,16 +1,15 @@
-import Image from "next/image";
-import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Image from "next/image";
 
 const AboutSidebar = () => {
   return (
-    <div className="container flex flex-col justify-center items-center gap-3 mb-5 bg-customColor-lightGrey min-w-[100%] min-h-[670px]">
+    <div className="container mb-5 flex min-h-[670px] min-w-[100%] flex-col items-center justify-center gap-3 bg-customColor-lightGrey">
       <p className="text-t1 font-bold max-2xl:text-[28px]">Other services</p>
-      <Card className="group flex flex-col justify-center items-center max-w-[90%] h-[158px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
+      <Card className="group flex h-[158px] max-w-[90%] flex-col items-center justify-center rounded-sm hover:cursor-pointer hover:bg-customColor-primary">
         <CardHeader>
-          <CardTitle className="flex justify-center items-center">
+          <CardTitle className="flex items-center justify-center">
             <Image
-              src="/revive-motors/images/car-doctor.svg"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/car-doctor.svg`}
               width={44}
               height={49}
               className="group-hover:brightness-0 group-hover:invert"
@@ -24,11 +23,11 @@ const AboutSidebar = () => {
           </p>
         </CardContent>
       </Card>
-      <Card className="group flex flex-col justify-center items-center max-w-[90%] h-[158px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
+      <Card className="group flex h-[158px] max-w-[90%] flex-col items-center justify-center rounded-sm hover:cursor-pointer hover:bg-customColor-primary">
         <CardHeader>
-          <CardTitle className="flex justify-center items-center">
+          <CardTitle className="flex items-center justify-center">
             <Image
-              src="/revive-motors/images/car-doctor.svg"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/car-doctor.svg`}
               width={44}
               height={49}
               className="group-hover:brightness-0 group-hover:invert"
@@ -42,11 +41,11 @@ const AboutSidebar = () => {
           </p>
         </CardContent>
       </Card>
-      <Card className="group flex flex-col justify-center items-center max-w-[90%] h-[158px] rounded-sm hover:bg-customColor-primary hover:cursor-pointer">
+      <Card className="group flex h-[158px] max-w-[90%] flex-col items-center justify-center rounded-sm hover:cursor-pointer hover:bg-customColor-primary">
         <CardHeader>
-          <CardTitle className="flex justify-center items-center">
+          <CardTitle className="flex items-center justify-center">
             <Image
-              src="/revive-motors/images/car-doctor.svg"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/car-doctor.svg`}
               width={44}
               height={49}
               className="group-hover:brightness-0 group-hover:invert"

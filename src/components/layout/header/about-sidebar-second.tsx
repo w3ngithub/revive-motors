@@ -1,28 +1,29 @@
-import React from "react";
-import serviceFormData from "../../../json/serviceForm.json";
 import Image from "next/image";
+import serviceFormData from "../../../json/serviceForm.json";
 
 const AboutSidebarSecond = () => {
-  const { heading, services, knowMore, form } = serviceFormData;
+  const { services } = serviceFormData;
 
   return (
-    <div className="container flex flex-row items-start justify-center     pt-3 gap-6 max-lg:flex-col my-10 ">
+    <div className="container my-10 flex flex-row items-start justify-center gap-6 pt-3 max-lg:flex-col">
       <div className="flex flex-col items-start gap-[53px]">
         {services.map((service, index) => {
           return (
-            <div className="flex flex-row justify-center align-center gap-4 hover:cursor-pointer">
-              <div className="">
+            <div
+              className="align-center flex flex-row justify-center gap-4 hover:cursor-pointer"
+              key={index}
+            >
+              <div>
                 <Image
-                  src={service.iconSrc}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH + service.iconSrc}`}
                   width={47}
                   height={47}
-                  // className="h-[30.94px] w-[30.94px]"
                   alt={service.altText}
                 />
               </div>
               <div className="max-w-[360px]">
-                <p className="text-t2 font-semibold ">{service.title}</p>
-                <p className="text-b2 font-semibold text-customColor-grey max-w-[266px] my-2">
+                <p className="text-t2 font-semibold">{service.title}</p>
+                <p className="my-2 max-w-[266px] text-b2 font-semibold text-customColor-grey">
                   {service.description}
                 </p>
               </div>
