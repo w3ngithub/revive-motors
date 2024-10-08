@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../../ui/button";
+import Link from "next/link";
 
 const ServiceHero = () => {
   return (
@@ -24,9 +25,11 @@ const ServiceHero = () => {
               had half every him case in packages enquire we up ecstatic
               unsatiable saw Through True Rich Attended does
             </p>
-            <Button className="max-h-[64px] max-w-[177px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-lightGrey hover:bg-customColor-primary">
-              Book a service
-            </Button>
+            <Link href="/contact">
+              <Button className="max-h-[64px] max-w-[177px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-lightGrey hover:bg-customColor-primary">
+                Book a service
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
