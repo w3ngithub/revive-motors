@@ -16,18 +16,22 @@ const ContactForm = () => {
                   <Input
                     className="h-[72px] w-full rounded-sm bg-customColor-lightGrey text-b2 font-semibold text-customColor-black"
                     placeholder="Your Full Name"
+                    id="first"
                   />
                   <Input
                     className="h-[72px] w-full rounded-sm bg-customColor-lightGrey text-b2 font-semibold text-customColor-black"
                     placeholder="Your Email"
+                    id="second"
                   />
                   <Input
                     className="h-[72px] w-full rounded-sm bg-customColor-lightGrey text-b2 font-semibold text-customColor-black"
                     placeholder="Select service type"
+                    id="third"
                   />
                   <Input
                     className="h-[72px] w-full rounded-sm bg-customColor-lightGrey text-b2 font-semibold text-customColor-black"
                     placeholder="Message"
+                    id="forth"
                   />
                   <Button className="mt-5 max-h-[64px] max-w-[203px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white">
                     Send Message

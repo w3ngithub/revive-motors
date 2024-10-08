@@ -58,18 +58,22 @@ const ServiceForm = () => {
               <Input
                 className="h-[72px] w-full rounded-sm sm:w-[480px] md:w-[540px] lg:w-[624px]"
                 placeholder="Enter your location"
+                id="first"
               />
               <Input
                 className="h-[72px] w-full sm:w-[480px] md:w-[540px] lg:w-[624px]"
                 placeholder="Enter your location"
+                id="second"
               />
               <Input
                 className="h-[72px] w-full sm:w-[480px] md:w-[540px] lg:w-[624px]"
                 placeholder="Enter your location"
+                id="third"
               />
               <Input
                 className="h-[72px] w-full sm:w-[480px] md:w-[540px] lg:w-[624px]"
                 placeholder="Your phone number"
+                id="forth"
               />
               <Button className="mt-5 max-h-[64px] max-w-[203px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white">
                 Get your quote
