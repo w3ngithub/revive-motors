@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 const ContactForm = () => {
   return (
     <>
-      <section className="flex min-h-[100vh] w-full flex-row items-center justify-center overflow-hidden bg-customColor-white 2xl:min-h-[80vh]">
+      <section className="flex min-h-[100vh] w-full flex-row items-center justify-center overflow-hidden bg-customColor-white 2xl:min-h-[75vh]">
         <div className="container grid h-auto w-[1244px] grid-cols-1 gap-11 lg:h-[628px] lg:grid-cols-2 2xl:w-full 2xl:gap-[7rem]">
           <div className=" ">
             <div className="">
