@@ -23,6 +23,7 @@ const BlogDetailHome = () => {
           width={1280}
           height={628}
           className="-lg mb-8 h-auto w-full"
+          priority
         />
       </div>
     </section>

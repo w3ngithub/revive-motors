@@ -37,8 +37,8 @@ const BlogDetailPost = () => {
             <Image
               src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/blog-detail-road.png`}
               alt="Car Pic"
-              layout="fill"
-              objectFit="cover"
+              fill
+              className="object-cover"
             />
           </div>
           <div className="flex flex-col gap-7">

@@ -20,9 +20,10 @@ const ServicesDiagnostics = () => {
               <Image
                 src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/service-diagnostics.png`}
                 alt="Car Pic"
-                objectFit="cover"
-                width={854}
-                height={334}
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, 41.66vw"
+                priority
               />
             </div>
             <div className="flex flex-col gap-7">
