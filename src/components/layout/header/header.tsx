@@ -14,9 +14,11 @@ const Header = () => {
   return (
     <nav className="container mx-auto">
       <div className="flex flex-wrap items-center justify-between">
-        <h1 className="text-h1 font-bold tracking-tighter text-customColor-primary">
-          {title}
-        </h1>
+        <Link href="/revive-motors">
+          <h1 className="text-h1 font-bold tracking-tighter text-customColor-primary cursor-pointer">
+            {title}
+          </h1>
+        </Link>
         <button
           onClick={toggleMenu}
           className="p-2 text-customColor-primary lg:hidden"
