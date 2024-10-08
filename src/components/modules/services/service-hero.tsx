@@ -10,9 +10,10 @@ const ServiceHero = () => {
           <Image
             src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/aboutHero.png`}
             alt="Car Pic"
-            layout="fill"
-            objectFit="cover"
-            className="absolute inset-0 h-full w-full"
+            fill
+            sizes="(max-width: 640px) 100vw, 41.66vw"
+            className="absolute inset-0 h-full w-full object-cover"
+            priority
           />
         </div>
         <div className="col-span-7 flex justify-center 2xl:min-h-[550px]">

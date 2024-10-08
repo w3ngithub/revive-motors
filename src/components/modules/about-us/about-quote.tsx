@@ -13,8 +13,10 @@ const AboutQuote = () => {
             <Image
               src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about-quote-car.png`}
               alt="Car Pic"
-              layout="fill"
-              objectFit="cover"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 773px"
+              className=" object-cover"
+              priority
             />
           </div>
         </div>

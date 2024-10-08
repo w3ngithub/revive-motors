@@ -37,9 +37,9 @@ export default function AboutBanner() {
             <Image
               src={`${process.env.NEXT_PUBLIC_BASE_PATH + banner.image}`}
               alt={`Banner ${index + 1}`}
-              layout="fill"
-              objectFit="cover"
-              className="z-0"
+              fill
+              className="z-0 object-cover"
+              sizes="(max-width: 640px) 100vw, 33.33vw"
             />
             <div
               className={`absolute inset-0 ${banner.bgColor} z-10 bg-opacity-70`}
