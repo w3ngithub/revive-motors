@@ -67,8 +67,9 @@ export default function AboutDiagnostics() {
                       <Image
                         src={`${process.env.NEXT_PUBLIC_BASE_PATH + item.icon}`}
                         alt={item.title}
-                        width={44}
-                        height={44}
+                        width={0}
+                        height={0}
+                        style={{ width: "44px", height: "auto" }}
                         className="mb-4 group-hover:brightness-0 group-hover:invert"
                       />
                       <p className="text-center text-t2 font-semibold group-hover:text-white">
