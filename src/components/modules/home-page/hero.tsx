@@ -1,6 +1,7 @@
 import Image from "next/image";
 import heroData from "../../../json/hero.json";
 import { Button } from "../../ui/button";
+import Link from "next/link";
 
 const Hero = () => {
   const { heading, button, openHours, heroImage } = heroData;
@@ -12,9 +13,11 @@ const Hero = () => {
           <h1 className="max-w-[624px] text-h1 font-extrabold leading-tight">
             {heading}
           </h1>
-          <Button className="max-h-[64px] max-w-[203px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white max-sm:p-2 max-sm:px-2 max-sm:text-caption">
-            {button.text}
-          </Button>
+          <Link href="/contact">
+            <Button className="max-h-[64px] max-w-[203px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white max-sm:p-2 max-sm:px-2 max-sm:text-caption">
+              {button.text}
+            </Button>
+          </Link>
           <div className="align-center flex flex-row justify-center gap-4 hover:cursor-pointer">
             <div className="">
               <Image
