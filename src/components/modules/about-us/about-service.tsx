@@ -13,6 +13,7 @@ const AboutService = () => {
             fill
             className="absolute inset-0 w-full h-full object-cover"
             sizes="(max-width: 640px) 100vw, 41.66vw"
+            priority
           />
         </div>
         <div className="col-span-7 flex justify-center 2xl:min-h-[550px]">

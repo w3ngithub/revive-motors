@@ -10,10 +10,11 @@ const BlogHome = () => {
           <Image
             src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/blog-hero.png`}
             alt="Car Pic"
-            objectFit="cover"
-            className="absolute inset-0 h-full w-full"
-            width={500}
-            height={100}
+            fill
+            sizes="(max-width: 640px) 100vw, 41.66vw"
+            className="absolute inset-0 w-full h-full object-cover"
+            // width={500}
+            // height={100}
           />
           {/* Centered background black */}
           <div className="absolute inset-0 flex items-center justify-center">
