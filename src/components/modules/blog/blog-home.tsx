@@ -13,8 +13,7 @@ const BlogHome = () => {
             fill
             sizes="(max-width: 640px) 100vw, 41.66vw"
             className="absolute inset-0 w-full h-full object-cover"
-            // width={500}
-            // height={100}
+            priority
           />
           {/* Centered background black */}
           <div className="absolute inset-0 flex items-center justify-center">
