@@ -15,10 +15,10 @@ const FrequentQuestion = () => {
           <h3 className="text-center text-h3 font-bold">{heading}</h3>
         </div>
         <div className="flex flex-col items-center justify-center gap-2">
-          {questions.map((item) => {
+          {questions.map((item, index) => {
             return (
               <Accordion
-                key={item.question}
+                key={index}
                 type="single"
                 collapsible
                 className="w-[70%] bg-customColor-white p-4 max-sm:w-[100%]"

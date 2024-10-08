@@ -11,10 +11,10 @@ const Brands = () => {
         </div>
 
         <div className="mb-10 grid h-full w-[100%] justify-start gap-11 max-sm:justify-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-          {logos.map((item) => {
+          {logos.map((item, index) => {
             return (
               <div
-                key={item.title}
+                key={index}
                 className="m-10 flex max-h-[126px] max-w-[225px] flex-row items-center justify-center gap-2 p-2 max-sm:m-2"
               >
                 <Image
