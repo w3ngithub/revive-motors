@@ -2,23 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
-  border: none !important;
-} */
-
-/* * {
-  box-sizing: border-box;
-  border: 2px solid green;
-} */
-
-/* h1,
-div,
-p,
-ul,
-li,
-a {
-  border: none !important;
-} */
 @media (max-width: 1436px) {
   .container {
     width: 80%;
@@ -50,10 +33,6 @@ a {
     font-size: 32px !important;
   }
 }
-
-/* section {
-  padding-top: 2rem;
-} */
 
 @layer utilities {
   .text-balance {

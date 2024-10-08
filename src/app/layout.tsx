@@ -25,15 +25,10 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="#"></link>
       </head>
-      <body
-        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className={`${manrope.className} flex min-h-screen flex-col`}
-      >
+      <body className={`${manrope.className} flex min-h-screen flex-col`}>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-
-        {/* <p className="font-manrope">Hello hi</p> */}
       </body>
     </html>
   );

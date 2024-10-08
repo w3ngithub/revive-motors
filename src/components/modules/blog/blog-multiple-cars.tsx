@@ -83,7 +83,6 @@ const BlogMultipleCars = () => {
                     Posted on October 6th 2021
                   </span>
                   <Link href="/blog/blog-details">
-                    {/* 375px */}
                     <h4 className="mb-2 text-t1 font-bold tracking-tight text-gray-900 dark:text-white 2xl:max-w-[375px]">
                       5 Genius Car Accessories You Should Never Drive Without
                     </h4>

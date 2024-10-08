@@ -33,7 +33,6 @@ const OurTeam = () => {
       image: "/images/man-profile.png",
     },
   ];
-  //   man-profile
   return (
     <section className="container mb-7 bg-white px-4 py-12">
       <div className="mx-auto max-w-6xl">

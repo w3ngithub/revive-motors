@@ -7,7 +7,6 @@ export default function AboutBanner() {
       description:
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
       bgColor: "bg-customColor-primary",
-      //   image: "/placeholder.svg?height=300&width=400",
       image: "/images/about-banner-first.png",
     },
     {
@@ -15,7 +14,6 @@ export default function AboutBanner() {
       description:
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
       bgColor: "bg-black",
-      //   image: "/placeholder.svg?height=300&width=400",
       image: "/images/about-banner-second.png",
     },
     {
@@ -24,7 +22,6 @@ export default function AboutBanner() {
       description:
         "We provide a full range of front and mechanical repairs for all makes and models of cars, no matter the cause. This includes",
       bgColor: "bg-[#7443CA]",
-      //   image: "/placeholder.svg?height=300&width=400",
       image: "/images/about-banner-third.png",
     },
   ];

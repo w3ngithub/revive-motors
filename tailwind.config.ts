@@ -9,14 +9,6 @@ const config: Config = {
   ],
 
   theme: {
-    // container: {
-    //   center: "true",
-    //   border: "2px solid green !important",
-
-    //   screens: {
-    //     xl: "1300px",
-    //   },
-    // },
     container: {
       center: true,
       screens: {
