@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../../ui/button";
+import Link from "next/link";
 
 const AboutProcess = () => {
   // checkmark
@@ -75,9 +76,11 @@ const AboutProcess = () => {
             springs everything from struts, shocks, and tie rod ends to ball
             joints, springs.
           </p>
-          <Button className="max-h-[64px] max-w-[177px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white">
-            Book a service
-          </Button>
+          <Link href="/contact">
+            <Button className="max-h-[64px] max-w-[177px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white">
+              Book a service
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
