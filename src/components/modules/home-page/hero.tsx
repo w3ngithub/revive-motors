@@ -41,6 +41,7 @@ const Hero = () => {
             alt={heroImage.altText}
             width={605}
             height={632}
+            priority
           />
         </div>
       </div>
