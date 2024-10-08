@@ -2,6 +2,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 import cardData from "../../../json/maintenance.json";
+import { MoveRight } from "lucide-react";
 
 const Maintenance = () => {
   const { smallHeading, largeHeading, cards } = cardData;
@@ -41,12 +42,11 @@ const Maintenance = () => {
             <div className="w-[84%] pt-2">
               <div className="flex flex-row items-center justify-end gap-6 hover:cursor-pointer">
                 <p className="text-b1 font-semibold">Know more about us</p>
-                <span className="">
-                  <Image
-                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/right-arrow.svg`}
-                    width={52}
-                    height={0}
-                    alt="Right arrow"
+                <span className="w-[52px]">
+                  <MoveRight
+                    className="arrow-icon w-full"
+                    size={48}
+                    strokeWidth={1}
                   />
                 </span>
               </div>

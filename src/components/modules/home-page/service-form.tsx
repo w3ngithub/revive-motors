@@ -41,16 +41,6 @@ const ServiceForm = () => {
           <div className="ml-11 flex flex-row items-center gap-6 pl-2 hover:cursor-pointer">
             <p className="text-b1 font-semibold">{knowMore.text} </p>
             <span className="w-[52px]">
-              {/* This below image is svg*/}
-
-              {/* <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH + knowMore.arrowIconSrc}`}
-                width={52}
-                height={0}
-                alt={knowMore.altText}
-              /> */}
-
-              {/* This below image is lucide-react */}
               <MoveRight
                 className="arrow-icon w-full"
                 size={48}
