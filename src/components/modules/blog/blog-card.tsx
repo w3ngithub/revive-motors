@@ -1,3 +1,4 @@
+import { MoveRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -33,24 +34,16 @@ const BlogCard = () => {
                 </p>
                 <Link
                   href="/blog/blog-details"
-                  className="inline-flex items-center rounded-none px-3 py-2 text-left text-b1 text-sm font-semibold focus:outline-none focus:ring-4 2xl:pl-4"
+                  className="inline-flex items-center rounded-none px-3 py-2 text-left text-b1 text-sm font-semibold focus:outline-none focus:ring-4 2xl:pl-4 gap-2"
                 >
                   Read more
-                  <svg
-                    className="ms-2 h-3.5 w-3.5 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 14 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                  <span className="w-[52px]">
+                    <MoveRight
+                      className="arrow-icon w-full"
+                      size={38}
+                      strokeWidth={1}
                     />
-                  </svg>
+                  </span>
                 </Link>
               </div>
             </div>
