@@ -39,8 +39,6 @@ const Hero = () => {
           <Image
             src={`${process.env.NEXT_PUBLIC_BASE_PATH + heroImage.src}`}
             alt={heroImage.altText}
-            // width={605}
-            // height={632}
             width={605}
             height={632}
             style={{ width: "auto", height: "auto" }}
