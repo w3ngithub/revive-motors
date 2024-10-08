@@ -13,7 +13,6 @@ const ServiceHero = () => {
             fill
             sizes="(max-width: 640px) 100vw, 41.66vw"
             className="absolute inset-0 h-full w-full object-cover"
-            // priority
             placeholder="blur"
             blurDataURL={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/aboutHero.png`}
           />
