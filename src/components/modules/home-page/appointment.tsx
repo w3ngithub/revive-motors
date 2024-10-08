@@ -5,8 +5,8 @@ const Appointment = () => {
   const { leftContent, rightContent } = appointmentData;
 
   return (
-    <section className="flex min-h-[100vh] w-full flex-row items-center justify-center overflow-hidden bg-customColor-white">
-      <div className="container grid grid-cols-1 lg:grid-cols-2">
+    <section className="flex min-h-[100vh] w-full flex-row items-center justify-center overflow-hidden bg-customColor-white 2xl:min-h-[100px] 2xl:my-11">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 2xl:my-11">
         <div className="flex flex-col items-start justify-center gap-11">
           <h2 className="max-w-[624px] text-h2 font-extrabold leading-tight">
             {leftContent.heading}
