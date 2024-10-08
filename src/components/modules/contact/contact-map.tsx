@@ -3,7 +3,7 @@ import Image from "next/image";
 const ContactMap = () => {
   return (
     <section>
-      <div className="relative min-h-[80vh] max-w-[100vw] max-lg:min-h-[50vh] 2xl:min-h-[60vh]">
+      <div className="relative min-h-[80vh] max-w-[100vw] max-lg:min-h-[50vh] 2xl:min-h-[80vh]">
         {/* second image */}
         <Image
           src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/blog-map-cover.png`}
