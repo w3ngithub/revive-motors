@@ -21,13 +21,13 @@ export default function AboutDiagnostics() {
         <div className="flex flex-col gap-8 lg:flex-row">
           <div className="lg:w-1/2">
             <Card className="h-full">
-              <CardContent className="p-0">
+              <CardContent className="">
                 <Image
                   src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about-diagnostics.png`}
                   alt="Auto Diagnostics"
                   width={600}
                   height={300}
-                  className="w-full object-cover"
+                  className="w-full object-cover py-[25px] px-[20px]"
                 />
                 <div className="p-6">
                   <h3 className="mb-4 text-h3 font-bold">Auto Diagnostics</h3>
