@@ -1,7 +1,7 @@
-import { Input } from "@/components/ui/input";
+import { Input } from "@/components/ui/Input";
 import Image from "next/image";
 import serviceFormData from "../../../json/serviceForm.json";
-import { Button } from "../../ui/button";
+import { Button } from "../../ui/Button";
 import { MoveRight } from "lucide-react";
 
 const ServiceForm = () => {

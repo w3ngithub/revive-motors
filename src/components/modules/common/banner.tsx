@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Middle from "./middle";
+import Middle from "./Middle";
 
 const Banner = () => {
   return (

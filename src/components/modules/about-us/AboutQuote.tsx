@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AboutQuoteFirst from "./about-quote-first";
+import AboutQuoteFirst from "./AboutQuoteFirst";
 
 const AboutQuote = () => {
   return (

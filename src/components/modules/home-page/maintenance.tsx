@@ -1,5 +1,5 @@
 "use client";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import Image from "next/image";
 import cardData from "../../../json/maintenance.json";
 import { MoveRight } from "lucide-react";

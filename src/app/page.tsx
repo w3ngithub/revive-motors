@@ -1,12 +1,12 @@
-import Banner from "@/components/modules/common/banner";
-import Appointment from "@/components/modules/home-page/appointment";
-import Brands from "@/components/modules/home-page/brands";
-import CustomerSatisfaction from "@/components/modules/home-page/customer-satisfaction";
-import CustomerView from "@/components/modules/home-page/customer-view";
-import FrequentQuestion from "@/components/modules/home-page/frequent-question";
-import Hero from "@/components/modules/home-page/hero";
-import Maintenance from "@/components/modules/home-page/maintenance";
-import ServiceForm from "@/components/modules/home-page/service-form";
+import Banner from "@/components/modules/common/Banner";
+import Appointment from "@/components/modules/home-page/Appointment";
+import Brands from "@/components/modules/home-page/Brands";
+import CustomerSatisfaction from "@/components/modules/home-page/CustomerSatisfaction";
+import CustomerView from "@/components/modules/home-page/CustomerView";
+import FrequentQuestion from "@/components/modules/home-page/FrequentQuestion";
+import Hero from "@/components/modules/home-page/Hero";
+import Maintenance from "@/components/modules/home-page/Maintenance";
+import ServiceForm from "@/components/modules/home-page/ServiceForm";
 
 export default function Home() {
   return (
