@@ -1,4 +1,4 @@
-import Banner from "@/components/modules/common/Banner";
+import Banner from "@/components/modules/common/tBanner";
 import ServicesDiagnostics from "@/components/modules/service-page/ServicesDiagnostics";
 
 const page = () => {
