@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/Card";
+import { Card, CardContent } from "@/components/ui/tCard";
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
