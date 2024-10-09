@@ -18,13 +18,13 @@ const CustomerView = () => {
   // Move the carousel by two items at a time
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === testimonials.length - 2 ? 0 : prevIndex + 1,
+      prevIndex === testimonials.length - 2 ? 0 : prevIndex + 1
     );
   };
 
   const handlePrevious = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? testimonials.length - 2 : prevIndex - 1,
+      prevIndex === 0 ? testimonials.length - 2 : prevIndex - 1
     );
   };
 
@@ -42,7 +42,7 @@ const CustomerView = () => {
               style={{ transform: `translateX(-${currentIndex * 50}%)` }}
             >
               {testimonials.map((testimonial, index) => (
-                <CarouselItem key={index} className="w-1/2 flex-none">
+                <CarouselItem key={index} className="md:basis-1/2">
                   {/* Each item takes up 50% of the carousel width */}
                   <Card className="mx-auto min-h-[376px] max-w-[616px] rounded-sm border-none bg-white p-10 shadow-none">
                     <CardContent className="flex flex-col items-start justify-center gap-6 p-0">
