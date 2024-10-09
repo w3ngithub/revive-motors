@@ -3,7 +3,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/tAccordion";
+} from "@/components/ui/Accordion";
 import frequentQuestionData from "../../../json/frequent-question.json";
 
 const FrequentQuestion = () => {

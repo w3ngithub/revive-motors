@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/tButton";
-import { Input } from "@/components/ui/tInput";
+import { Button } from "@/components/ui/Button";
+import { Input } from "@/components/ui/Input";
 
 const ContactForm = () => {
   return (

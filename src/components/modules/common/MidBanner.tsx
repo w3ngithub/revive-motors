@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "../../ui/tButton";
+import { Button } from "../../ui/Button";
 
 const MidBanner = () => {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "../../ui/tButton";
+import { Button } from "../../ui/Button";
 import Link from "next/link";
 
 const AboutService = () => {

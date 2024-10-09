@@ -1,12 +1,12 @@
 "use client";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/tAvatar";
-import { Card, CardContent } from "@/components/ui/tCard";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/Avatar";
+import { Card, CardContent } from "@/components/ui/Card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-} from "@/components/ui/tCarousel";
+} from "@/components/ui/Carousel";
 import { useState } from "react";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import customerViewData from "../../../json/customer-view.json";

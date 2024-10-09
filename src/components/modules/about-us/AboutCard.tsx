@@ -1,9 +1,4 @@
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/tCard";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import Image from "next/image";
 
 const AboutCard = () => {

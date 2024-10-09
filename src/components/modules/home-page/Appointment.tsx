@@ -1,5 +1,5 @@
 import appointmentData from "../../../json/appointment.json";
-import { Button } from "../../ui/tButton";
+import { Button } from "../../ui/Button";
 
 const Appointment = () => {
   const { leftContent, rightContent } = appointmentData;

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import heroData from "../../../json/hero.json";
-import { Button } from "../../ui/tButton";
+import { Button } from "../../ui/Button";
 import Link from "next/link";
 
 const Hero = () => {
