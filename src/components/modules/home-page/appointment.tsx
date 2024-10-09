@@ -5,6 +5,7 @@ const Appointment = () => {
   const { leftContent, rightContent } = appointmentData;
 
   return (
+    // appointment section
     <section className="flex min-h-[100vh] w-full flex-row items-center justify-center overflow-hidden bg-customColor-white 2xl:min-h-[100px] 2xl:my-11">
       <div className="container grid grid-cols-1 lg:grid-cols-2 2xl:my-11">
         <div className="flex flex-col items-start justify-center gap-11">

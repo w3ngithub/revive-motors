@@ -1,8 +1,9 @@
 import Image from "next/image";
-import Middle from "./Middle";
+import MidBanner from "./MidBanner";
 
 const Banner = () => {
   return (
+    //banner section
     <section className="max-w-[100vw]">
       <div className="grid max-h-[502px] w-full grid-cols-12 max-lg:grid-cols-2">
         {/* Left Image */}
@@ -18,7 +19,7 @@ const Banner = () => {
 
         {/* Middle Component */}
         <div className="col-span-5 m-0 block items-center justify-center p-0 max-lg:col-span-1">
-          <Middle />
+          <MidBanner />
         </div>
 
         {/* Right Image */}

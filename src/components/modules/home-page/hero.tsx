@@ -7,6 +7,7 @@ const Hero = () => {
   const { heading, button, openHours, heroImage } = heroData;
 
   return (
+    //hero section
     <section className="max-sm:mt-7">
       <div className="container grid sm:grid-cols-2">
         <div className="flex flex-col items-start justify-center gap-11 max-sm:gap-5">
