@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import headerData from "../../../json/header.json";
+import headerData from "../../json/header.json";
 
 const Header = () => {
   const { title, navItems, divider, contactInfo } = headerData;

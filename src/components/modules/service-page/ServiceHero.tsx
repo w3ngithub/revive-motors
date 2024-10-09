@@ -14,7 +14,7 @@ const ServiceHero = () => {
             sizes="(max-width: 640px) 100vw, 41.66vw"
             className="absolute inset-0 h-full w-full object-cover"
             placeholder="blur"
-            blurDataURL={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/aboutHero.png`}
+            blurDataURL={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/about-hero.png`}
           />
         </div>
         <div className="col-span-7 flex justify-center 2xl:min-h-[550px]">

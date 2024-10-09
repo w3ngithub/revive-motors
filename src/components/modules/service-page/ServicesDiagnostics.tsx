@@ -1,6 +1,7 @@
 import Image from "next/image";
 import AboutSidebar from "../about-us/AboutSidebar";
-import AboutSidebarSecond from "@/components/layouts/header/about-sidebar-second";
+import AboutSidebarSecond from "../about-us/AboutSideBarSecond";
+
 
 const ServicesDiagnostics = () => {
   return (

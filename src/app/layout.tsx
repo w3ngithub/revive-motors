@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "../../styles/globals.css";
-import Header from "@/components/layouts/header/header";
-import Footer from "@/components/layouts/footer/footer";
+import Header from "@/components/layouts/Header";
+import Footer from "@/components/layouts/Footer";
 
 const manrope = localFont({
   src: "../../public/fonts/Manrope-VariableFont_wght.ttf",
