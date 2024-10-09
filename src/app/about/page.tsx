@@ -1,10 +1,10 @@
-import AboutBanner from "@/components/modules/about-us/about-banner";
-import AboutCard from "@/components/modules/about-us/about-card";
-import AboutQuote from "@/components/modules/about-us/about-quote";
-import Banner from "@/components/modules/common/banner";
-import CustomerSatisfaction from "@/components/modules/home-page/customer-satisfaction";
-import OurTeam from "@/components/modules/our-team/our-team";
-import ServiceHero from "@/components/modules/services/service-hero";
+import AboutBanner from "@/components/modules/about-us/AboutBanner";
+import AboutCard from "@/components/modules/about-us/AboutCard";
+import AboutQuote from "@/components/modules/about-us/AboutQuote";
+import Banner from "@/components/modules/common/Banner";
+import CustomerSatisfaction from "@/components/modules/home-page/CustomerSatisfaction";
+import OurTeam from "@/components/modules/our-team/OurTeam";
+import ServiceHero from "@/components/modules/service-page/ServiceHero";
 
 const page = () => {
   return (

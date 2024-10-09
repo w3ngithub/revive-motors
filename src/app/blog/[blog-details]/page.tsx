@@ -1,6 +1,6 @@
-import BlogDetailHome from "@/components/modules/blog/blog-detail/blog-detail-home";
-import BlogDetailPost from "@/components/modules/blog/blog-detail/blog-detail-post";
-import Banner from "@/components/modules/common/banner";
+import BlogDetailHome from "@/components/modules/blog/BlogDetailHome";
+import BlogDetailPost from "@/components/modules/blog/BlogDetailPost";
+import Banner from "@/components/modules/common/Banner";
 
 const page = () => {
   return (

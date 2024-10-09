@@ -1,5 +1,5 @@
-import ContactForm from "@/components/modules/contact/contact-form";
-import ContactMap from "@/components/modules/contact/contact-map";
+import ContactForm from "@/components/modules/contact/ContactForm";
+import ContactMap from "@/components/modules/contact/ContactMap";
 
 const page = () => {
   return (
