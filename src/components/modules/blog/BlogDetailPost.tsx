@@ -39,6 +39,7 @@ const BlogDetailPost = () => {
               alt="Car Pic"
               fill
               className="object-cover"
+              sizes="(max-width: 640px) 100vw, 33.33vw"
             />
           </div>
           <div className="flex flex-col gap-7">
