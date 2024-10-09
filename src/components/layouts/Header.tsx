@@ -12,7 +12,7 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <nav className="container mx-auto">
+    <nav className="container mx-auto max-sm:pt-2">
       <div className="flex flex-wrap items-center justify-between">
         <Link href="/revive-motors">
           <h1 className="text-h1 font-bold tracking-tighter text-customColor-primary cursor-pointer">

@@ -4,7 +4,7 @@ import Middle from "./Middle";
 const Banner = () => {
   return (
     <section className="max-w-[100vw]">
-      <div className="grid max-h-[502px] w-full grid-cols-12 max-lg:grid-cols-2">
+      <div className="grid max-h-[502px] w-full grid-cols-12 max-lg:grid-cols-2 max-sm:grid-cols-1">
         {/* Left Image */}
         <div className="relative col-span-2 block max-lg:hidden">
           <Image

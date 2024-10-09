@@ -26,6 +26,7 @@ const ServiceForm = () => {
                     width={47}
                     height={47}
                     alt={service.altText}
+                    className="max-sm:w-16"
                   />
                 </div>
                 <div className="max-w-[360px]">
@@ -38,7 +39,7 @@ const ServiceForm = () => {
             );
           })}
 
-          <div className="ml-11 flex flex-row items-center gap-6 pl-2 hover:cursor-pointer">
+          <div className="ml-11 flex flex-row items-center gap-6 pl-2 hover:cursor-pointer max-sm:ml-0">
             <p className="text-b1 font-semibold">{knowMore.text} </p>
             <span className="w-[52px]">
               <MoveRight
