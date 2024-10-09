@@ -1,7 +1,7 @@
-import BlogCard from "@/components/modules/blog/blog-card";
-import BlogHome from "@/components/modules/blog/blog-home";
-import BlogMultipleCars from "@/components/modules/blog/blog-multiple-cars";
-import Banner from "@/components/modules/common/banner";
+import BlogCard from "@/components/modules/blog/BlogCard";
+import BlogHome from "@/components/modules/blog/BlogHome";
+import BlogMultipleCars from "@/components/modules/blog/BlogMultipleCars";
+import Banner from "@/components/modules/common/Banner";
 
 const page = () => {
   return (

@@ -1,5 +1,5 @@
-import Banner from "@/components/modules/common/banner";
-import ServicesDiagnostics from "@/components/modules/services/services-diagnostics";
+import Banner from "@/components/modules/common/Banner";
+import ServicesDiagnostics from "@/components/modules/service-page/ServicesDiagnostics";
 
 const page = () => {
   return (

@@ -1,7 +1,7 @@
-import AboutDiagnostics from "@/components/modules/about-us/about-diagnostics";
-import AboutProcess from "@/components/modules/about-us/about-process";
-import AboutService from "@/components/modules/about-us/about-service";
-import Banner from "@/components/modules/common/banner";
+import AboutDiagnostics from "@/components/modules/about-us/AboutDiagnostics";
+import AboutProcess from "@/components/modules/about-us/AboutProcess";
+import AboutService from "@/components/modules/about-us/AboutService";
+import Banner from "@/components/modules/common/Banner";
 
 const page = () => {
   return (
