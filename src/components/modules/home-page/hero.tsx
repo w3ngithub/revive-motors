@@ -7,14 +7,14 @@ const Hero = () => {
   const { heading, button, openHours, heroImage } = heroData;
 
   return (
-    <section className="max-sm:mt-3 ">
+    <section className="max-sm:mt-7">
       <div className="container grid sm:grid-cols-2">
         <div className="flex flex-col items-start justify-center gap-11 max-sm:gap-5">
           <h1 className="max-w-[624px] text-h1 font-extrabold leading-tight">
             {heading}
           </h1>
           <Link href="/contact">
-            <Button className="max-h-[64px] max-w-[203px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white max-sm:text-caption max-sm:px-4 max-sm:py-2">
+            <Button className="max-h-[64px] max-w-[203px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white max-sm:px-4 max-sm:py-1 max-sm:text-caption">
               {button.text}
             </Button>
           </Link>

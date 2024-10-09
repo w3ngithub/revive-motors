@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { Button } from "../../ui/Button";
 
-const Middle = () => {
+const MidBanner = () => {
   return (
+    //banner middle section
     <section>
       <div className="flex justify-center bg-customColor-primary">
         <div className="flex flex-col items-start justify-center gap-11 bg-customColor-primary p-10">
@@ -20,4 +21,4 @@ const Middle = () => {
   );
 };
 
-export default Middle;
+export default MidBanner;

@@ -26,7 +26,7 @@ const ServiceForm = () => {
                     width={47}
                     height={47}
                     alt={service.altText}
-                    className="max-sm:w-16"
+                    className="max-sm:w-[90px]"
                   />
                 </div>
                 <div className="max-w-[360px]">

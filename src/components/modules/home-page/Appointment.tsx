@@ -14,7 +14,7 @@ const Appointment = () => {
           <p className="max-w-[425px] text-b2 text-customColor-grey">
             {leftContent.description}
           </p>
-          <Button className="max-h-[64px] max-w-[177px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white">
+          <Button className="max-h-[64px] max-w-[177px] rounded-xl bg-customColor-primary p-7 px-9 text-b1 text-customColor-white max-sm:px-5 max-sm:my-1">
             {leftContent.button}
           </Button>
         </div>

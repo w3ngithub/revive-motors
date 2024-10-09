@@ -19,9 +19,10 @@ const Brands = () => {
               >
                 <Image
                   src={`${process.env.NEXT_PUBLIC_BASE_PATH + item.src}`}
-                  width={44}
-                  height={49}
+                  width={0}
+                  height={0}
                   alt={item.alt}
+                  style={{ width: "44px", height: "auto" }}
                 />
                 <p className="text-center text-t2 font-extrabold">
                   {item.title}

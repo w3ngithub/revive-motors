@@ -24,7 +24,7 @@ const FrequentQuestion = () => {
                 className="w-[70%] bg-customColor-white p-4 max-sm:w-[100%]"
               >
                 <AccordionItem value="item-1">
-                  <AccordionTrigger className="text-t2 font-semibold max-sm:text-b1">
+                  <AccordionTrigger className="text-t2 font-semibold max-sm:text-b1 max-sm:text-start">
                     {item.question}
                   </AccordionTrigger>
                   <AccordionContent className="max-w-[701px] text-b1 text-customColor-grey">
