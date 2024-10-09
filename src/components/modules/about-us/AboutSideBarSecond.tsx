@@ -1,5 +1,5 @@
 import Image from "next/image";
-import serviceFormData from "../../../json/serviceForm.json";
+import serviceFormData from "../../../json/service-form.json";
 
 const AboutSidebarSecond = () => {
   const { services } = serviceFormData;
