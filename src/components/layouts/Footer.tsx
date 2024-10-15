@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="grid grid-cols-12 mt-12 border-t border-gray-800 max-md:grid-cols-1 ">
         <div className="md:col-span-8 p-4 mt-6">
-          <ul className="flex flex-row justify-end gap-10 text-b2 max-md:justify-center max-sm:flex-col">
+          <ul className="flex flex-row justify-end gap-10 text-b2 max-md:justify-center max-sm:flex-col 2xl:mr-11 ">
             {navigation.map((navItem, index) => (
               <li key={index}>
                 <Link href={navItem.href} className="hover:text-gray-300">
