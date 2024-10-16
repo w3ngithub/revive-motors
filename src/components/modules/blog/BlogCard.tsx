@@ -22,11 +22,11 @@ const BlogCard = () => {
                 <span className="text-b2 font-semibold text-customColor-grey 2xl:pl-4">
                   Posted on October 6th 2021
                 </span>
-                <a href="#">
+                <Link href="#">
                   <h4 className="mb-2 text-h4 font-bold tracking-tight text-gray-900 dark:text-white max-2xl:leading-tight 2xl:pl-4">
                     Should I Buy a New Car or Lease a New Car in 2021?
                   </h4>
-                </a>
+                </Link>
                 <p className="mb-3 max-w-[500px] text-b2 font-semibold leading-relaxed text-customColor-grey 2xl:pl-4">
                   We provide a full range of front end mechanical repairs for
                   all makes and models of cars, no matter the cause. This
