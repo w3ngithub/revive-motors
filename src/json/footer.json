@@ -1,61 +1,60 @@
 {
-    "getInTouch": {
-      "heading": "Get in touch with us for your service",
-      "socialMediaLinks": [
-        {
-          "platform": "Facebook",
-          "href": "#"
-        },
-        {
-          "platform": "Twitter",
-          "href": "#"
-        },
-        {
-          "platform": "Instagram",
-          "href": "#"
-        },
-        {
-          "platform": "Linkedin",
-          "href": "#"
-        }
-      ]
-    },
-    "contactInfo": {
-      "helpline": {
-        "title": "Help line Number",
-        "details": "1800 265 24 52"
-      },
-      "address": {
-        "title": "Address",
-        "details": "NH 234 Public Square San Francisco 65368"
-      },
-      "hours": {
-        "title": "We are open",
-        "details": "Monday to Friday 9:00 AM to 10:00 AM"
-      }
-    },
-    "navigation": [
+  "getInTouch": {
+    "heading": "Get in touch with us for your service",
+    "socialMediaLinks": [
       {
-        "label": "Home",
+        "platform": "Facebook",
         "href": "#"
       },
       {
-        "label": "About us",
+        "platform": "Twitter",
         "href": "#"
       },
       {
-        "label": "Services",
+        "platform": "Instagram",
         "href": "#"
       },
       {
-        "label": "Blog",
-        "href": "#"
-      },
-      {
-        "label": "Contact us",
+        "platform": "Linkedin",
         "href": "#"
       }
-    ],
-    "copyright": "© Copyright Revive Motors 2024"
-  }
-  
+    ]
+  },
+  "contactInfo": {
+    "helpline": {
+      "title": "Help line Number",
+      "details": "1800 265 24 52"
+    },
+    "address": {
+      "title": "Address",
+      "details": "NH 234 Public Square San Francisco 65368"
+    },
+    "hours": {
+      "title": "We are open",
+      "details": "Monday to Friday 9:00 AM to 10:00 AM"
+    }
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About us",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact"
+    }
+  ],
+  "copyright": "© Copyright Revive Motors 2024"
+}
