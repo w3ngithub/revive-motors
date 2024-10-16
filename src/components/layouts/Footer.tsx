@@ -37,9 +37,9 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="mt-12 flex flex-row items-center justify-between border-t border-gray-800 pt-8 max-md:flex-col">
-        <div className="flex-1">
-          <ul className="flex flex-row flex-wrap items-center justify-center gap-8 p-4">
+      <div className="grid grid-cols-12 mt-12 border-t border-gray-800 max-md:grid-cols-1 ">
+        <div className="md:col-span-8 p-4 mt-6">
+          <ul className="flex flex-row justify-end gap-10 text-b2 max-md:justify-center max-sm:flex-col 2xl:mr-11 ">
             {navigation.map((navItem, index) => (
               <li key={index}>
                 <Link href={navItem.href} className="hover:text-gray-300">
@@ -49,9 +49,9 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <div>
-          <p className="text-right text-sm text-gray-500">{copyright}</p>
-        </div>
+        <p className="md:col-span-4 text-center text-sm text-customColor-grey p-4 mt-6">
+          {copyright}
+        </p>
       </div>
     </footer>
   );

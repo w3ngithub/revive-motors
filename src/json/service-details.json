@@ -1,48 +1,22 @@
 {
-  "heading": "We are taking car servicing seriously",
   "services": [
     {
-      "iconSrc": "/images/tool-logo.svg",
+      "iconSrc": "/images/about-detail-tool.svg",
       "altText": "Tool Icon",
       "title": "Convenient services",
       "description": "Through True Rich Attended does no end it his mother since real had half every him."
     },
     {
-      "iconSrc": "/images/man-logo.svg",
+      "iconSrc": "/images/about-detail-tool.svg",
       "altText": "Man Icon",
       "title": "Expert mechanics",
       "description": "Through True Rich Attended does no end it his mother since real had half every him."
     },
     {
-      "iconSrc": "/images/dollar-logo.svg",
+      "iconSrc": "/images/about-detail-tool.svg",
       "altText": "Dollar Icon",
       "title": "Transparent pricing",
       "description": "Through True Rich Attended does no end it his mother since real had half every him."
     }
-  ],
-  "knowMore": {
-    "text": "Know more about us",
-    "arrowIconSrc": "/images/right-arrow.svg",
-    "altText": "Right arrow"
-  },
-  "form": {
-    "heading": "Get a quote for the car service",
-    "inputs": [
-      {
-        "placeholder": "Enter your location"
-      },
-      {
-        "placeholder": "Enter your location"
-      },
-      {
-        "placeholder": "Enter your location"
-      },
-      {
-        "placeholder": "Your phone number"
-      }
-    ],
-    "button": {
-      "text": "Get your quote"
-    }
-  }
+  ]
 }

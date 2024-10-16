@@ -1,5 +1,5 @@
 import Image from "next/image";
-import serviceFormData from "../../../json/service-form.json";
+import serviceFormData from "../../../json/service-details.json";
 
 const AboutSidebarSecond = () => {
   const { services } = serviceFormData;
@@ -19,6 +19,7 @@ const AboutSidebarSecond = () => {
                   width={47}
                   height={47}
                   alt={service.altText}
+                  className="max-2xl:w-[87px] max-sm:w-[90px]"
                 />
               </div>
               <div className="max-w-[360px]">
