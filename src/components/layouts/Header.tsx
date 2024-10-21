@@ -12,12 +12,12 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <nav className="container mx-auto max-sm:pt-2">
+    <nav className="container max-sm:pt-2 mt-2">
       <div className="flex flex-wrap items-center justify-between">
         <Link href="/">
-          <h1 className="text-h1 font-bold tracking-tighter text-customColor-primary cursor-pointer">
+          <p className="text-[42px] font-bold tracking-tighter text-customColor-primary cursor-pointer">
             {title}
-          </h1>
+          </p>
         </Link>
         <button
           onClick={toggleMenu}
