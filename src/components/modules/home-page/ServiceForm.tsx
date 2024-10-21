@@ -194,7 +194,6 @@ const ServiceForm = () => {
                   name="phoneNumber"
                   value={formValues.phoneNumber}
                   onChange={handleChange}
-                  pattern="^\+?[\d\s()-]{10,15}$"
                 />
                 {formErrors.phoneNumber && (
                   <p className="text-sm text-red-500">
