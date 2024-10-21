@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContactMap = () => {
   return (
-    <section>
+    <section className="mt-4">
       <div className="relative min-h-[80vh] max-w-[100vw] max-lg:min-h-[50vh] 2xl:min-h-[80vh]">
         {/* second image */}
         <Image
