@@ -116,7 +116,7 @@ const ContactForm = () => {
                   onSubmit={handleSubmit}
                 >
                   <Input
-                    className="h-[72px] w-full rounded-sm bg-customColor-lightGrey text-b2 font-semibold text-customColor-black focus:!outline-none"
+                    className="h-[72px] w-full rounded-sm bg-customColor-lightGrey text-b2 font-semibold text-customColor-black"
                     placeholder="Your Full Name"
                     id="name"
                     name="name"

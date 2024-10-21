@@ -42,6 +42,7 @@ const ServiceForm = () => {
 
   const validate = (): FormErrors => {
     let errors: FormErrors = {};
+    const phoneNumberPattern = /^\+?[\d\s()-]{10,15}$/;
 
     if (!formValues.locationFirst.trim()) {
       errors.locationFirst = "First location is required";
@@ -54,9 +55,12 @@ const ServiceForm = () => {
     }
     if (!formValues.phoneNumber) {
       errors.phoneNumber = "Phone Number is required";
-    }
-    if (!formValues.phoneNumber) {
-      errors.phoneNumber = "Phone Number is required";
+    } else if (!phoneNumberPattern.test(formValues.phoneNumber)) {
+      errors.phoneNumber =
+        "Phone Number is invalid. Please use a valid format.";
+    } else if (/[^0-9\s\+\-\(\)]/.test(formValues.phoneNumber)) {
+      errors.phoneNumber =
+        "Phone Number can only contain digits, spaces, +, -, (, and ).";
     }
 
     return errors;
@@ -184,11 +188,13 @@ const ServiceForm = () => {
 
                 <Input
                   className="h-[72px] w-full sm:w-[480px] md:w-[540px] lg:w-[624px]"
-                  placeholder="+1 (426) 987-1865"
+                  type="tel"
+                  placeholder="+977-9840123456"
                   id="phoneNumber"
                   name="phoneNumber"
                   value={formValues.phoneNumber}
                   onChange={handleChange}
+                  pattern="^\+?[\d\s()-]{10,15}$"
                 />
                 {formErrors.phoneNumber && (
                   <p className="text-sm text-red-500">
